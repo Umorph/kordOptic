@@ -12,9 +12,17 @@
 }
 
 .main-content__slider-package {
-    margin: 15px auto 50px;
+    margin: 15px auto 0;
 
     @media (min-width: 768px) {
         margin-top: 30px;
+    }
+}
+
+.main-content__services {
+    margin: 15px auto 0;
+
+    @media (min-width: 768px) {
+        margin-top: 65px;
     }
 }
