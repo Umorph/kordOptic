@@ -10,13 +10,15 @@
 <body>
     <header class="header">
         <div class="header__top-wrapper">
-            <div class="header__city-wrapper">
-                <p class="header__city-label">Ваш город:</p>
-                <button class="header__city-button" type="button">Казань</button>
-            </div>
-            <div class="header__hotline-wrapper">
-                <p class="header__hotline-label">Горячая линия</p>
-                <strong class="header__hotline-number">8 800 100 00 09</strong>
+            <div class="header__top-container">
+                <div class="header__city-wrapper current-city">
+                    <p class="current-city__label">Ваш город:</p>
+                    <button class="current-city__button" type="button">Казань</button>
+                </div>
+                <div class="header__hotline-wrapper hotline">
+                    <p class="hotline__label">Горячая линия</p>
+                    <strong class="hotline__number">8 800 100 00 09</strong>
+                </div>
             </div>
         </div>
         <div class="header__bottom-wrapper">
@@ -45,9 +47,14 @@
                     </li>
                 </ul>
             </nav>
-            <a class="header__link button" href="#">Интернет-магазин</a>
-            <div class="header__user-navigation">
-                <img src="img/user-icon.svg" alt="Личный кабинет">
+            <div class="header__user-nav-wrapper">
+                <a class="header__store-link button" href="#">Интернет-магазин</a>
+                <button class="header__burger-button" type="button">
+                    <span class="visually-hidden">Открыть меню</span>
+                </button>
+                <div class="header__user-navigation">
+                    <img src="img/user-icon.svg" alt="Личный кабинет">
+                </div>
             </div>
         </div>
     </header>

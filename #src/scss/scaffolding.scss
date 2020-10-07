@@ -1,5 +1,7 @@
 body {
     min-width: 320px;
+
+    transition: all .3s ease;
 }
 
 .visually-hidden:not(:focus):not(:active),
