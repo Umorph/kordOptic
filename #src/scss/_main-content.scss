@@ -34,3 +34,11 @@
         margin-top: 65px;
     }
 }
+
+.main-content__stat {
+    margin: 32px auto 0;
+
+    @media (min-width: 768px) {
+        margin-top: 10px;
+    }
+}
