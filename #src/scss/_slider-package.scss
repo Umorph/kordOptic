@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     max-width: 1410px;
-
-    box-shadow: inset 0 0 0 1px #f00;
 }
 
 .slider-package .slick-slide {
@@ -48,8 +46,6 @@
     background-color: $trueWhite;
     border: none;
     border-radius: 50%;
-
-    box-shadow: inset 0 0 0 1px #f00;
 
     transform: translateY(-25px);
 
@@ -109,8 +105,6 @@
     @media (max-width: 768px) {
         height: 120px;
     }
-
-    box-shadow: inset 0 0 0 1px #ff0000;
 }
 
 .slider-package__type {

@@ -7,8 +7,6 @@
     max-width: 1410px;
 
     border-radius: 10px;
-
-    box-shadow: inset 0 0 0 1px #f00;
 }
 
 .slider-offer__item {
@@ -28,8 +26,6 @@
     background-color: $trueWhite;
     border: none;
     border-radius: 50%;
-
-    box-shadow: inset 0 0 0 1px #f00;
 
     transform: translateY(-25px);
 
@@ -119,8 +115,6 @@
     border-radius: 50%;
 
     cursor: pointer;
-
-    box-shadow: inset 0 0 0 1px #ff0000;
 }
 
 .slider-offer .slick-dots li.slick-active button{
@@ -151,8 +145,6 @@
         top: 98px;
         left: 95px;
     }
-
-    box-shadow: inset 0 0 0 1px #ff0000;
 }
 
 .slider-offer__inner-topic {
