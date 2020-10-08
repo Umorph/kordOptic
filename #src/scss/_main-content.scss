@@ -49,3 +49,10 @@
         margin-top: 32px;
     }
 }
+
+.main-content__news {
+    margin: 32px auto 0;
+    @media (min-width: 768px) {
+        margin-top: 64px;
+    }
+}
