@@ -177,3 +177,11 @@
         margin-bottom: 0;
     }
 }
+
+.main-content__reviews {
+    margin: 32px auto 0;
+
+    @media (min-width: 475px) {
+        margin-top: 64px;
+    }
+}
