@@ -27,4 +27,12 @@ $(document).ready(function(){
             }
         ],
     });
+
+    $('.slider-inst__slider').slick({
+        arrows: false,
+        centerMode: true,
+        variableWidth: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+    });
 });
