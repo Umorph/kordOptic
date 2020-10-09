@@ -627,6 +627,7 @@ input:focus {
 }
 
 .header {
+  position: relative;
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -648,6 +649,7 @@ input:focus {
   background: -webkit-gradient(linear, left top, right top, from(#4351D8), to(#6D7BFF));
   background: -o-linear-gradient(left, #4351D8 0%, #6D7BFF 100%);
   background: linear-gradient(90deg, #4351D8 0%, #6D7BFF 100%);
+  z-index: 150;
 }
 
 .header__top-container {
@@ -694,6 +696,8 @@ input:focus {
           align-items: center;
   width: 1410px;
   min-height: 110px;
+  background-color: #ffffff;
+  z-index: 150;
 }
 
 .header__logo {
@@ -756,6 +760,117 @@ input:focus {
 .header__user-navigation {
   margin: 0 0 0 20px;
   padding: 0;
+}
+
+.header__modal-about {
+  position: absolute;
+  top: 150px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-transform: translateY(-200%);
+      -ms-transform: translateY(-200%);
+          transform: translateY(-200%);
+}
+
+.header__modal-about--opened {
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.header__modal-container {
+  margin: 36px auto;
+  width: 1410px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__modal-img-wrapper {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: inset 0 0 0 1px #0000ff;
+          box-shadow: inset 0 0 0 1px #0000ff;
+}
+
+.header__modal-image {
+  width: 100%;
+  height: auto;
+}
+
+.header__modal-text-wrapper {
+  margin: 0 0 0 65px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.header__modal-heading {
+  margin: 0;
+  padding: 0;
+  font-family: "Geometria", Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 53px;
+  color: #5e6df5;
+}
+
+.header__modal-list {
+  margin: 25px 0 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  list-style: none;
+}
+
+.header__modal-link {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: "Geometria", Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 56px;
+  text-decoration: none;
+  color: #73778D;
 }
 
 .slick-slider {
@@ -2549,6 +2664,25 @@ input:focus {
     line-height: 20px;
   }
 
+  .header__modal-container {
+    width: 1160px;
+  }
+
+  .header__modal-img-wrapper {
+    width: 300px;
+    height: 300px;
+  }
+
+  .header__modal-heading {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .header__modal-link {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
   .slider-package .slick-slide {
     width: 400px;
     height: 250px;
@@ -2572,6 +2706,25 @@ input:focus {
 @media (max-width: 1160px) {
   .site-navigation {
     width: 530px;
+  }
+
+  .header__modal-container {
+    width: 1024px;
+  }
+
+  .header__modal-img-wrapper {
+    width: 250px;
+    height: 250px;
+  }
+
+  .header__modal-heading {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .header__modal-link {
+    font-size: 20px;
+    line-height: 35px;
   }
 }
 
@@ -2618,6 +2771,10 @@ input:focus {
   }
 
   .header__user-navigation {
+    display: none;
+  }
+
+  .header__modal-about {
     display: none;
   }
 
