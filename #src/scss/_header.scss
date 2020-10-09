@@ -1,4 +1,6 @@
 .header {
+    position: relative;
+
     margin: 0;
     padding: 0;
     display: flex;
@@ -9,6 +11,8 @@
 
 .header__top-wrapper {
     background: $kord-gradient;
+
+    z-index: 150;
 }
 
 .header__top-container  {
@@ -45,6 +49,10 @@
     align-items: center;
     width: 1410px;
     min-height: 110px;
+
+    background-color: $trueWhite;
+
+    z-index: 150;
 
     @media (max-width: 1410px) {
         width: 100%;
@@ -162,5 +170,135 @@
 
     @media (max-width: 1024px) {
         display: none;
+    }
+}
+
+.header__modal-about {
+    position: absolute;
+    top: 150px;
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+
+    transition: all .3s ease;
+    transform: translateY(-200%);
+
+    &--opened {
+        transform: translateY(0);
+    }
+
+    @media (max-width: 1024px) {
+        display: none;
+    }
+}
+
+.header__modal-container {
+    margin: 36px auto;
+    width: 1410px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    @media (max-width: 1410px) {
+        width: 1160px;
+    }
+
+    @media (max-width: 1160px) {
+        width: 1024px;
+    }
+}
+
+.header__modal-img-wrapper {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+
+    @media (max-width: 1410px) {
+        width: 300px;
+        height: 300px;
+    }
+
+    @media (max-width: 1160px) {
+        width: 250px;
+        height: 250px;
+    }
+
+    overflow: hidden;
+
+    box-shadow: inset 0 0 0 1px #0000ff;
+}
+
+.header__modal-image {
+    width: 100%;
+    height: auto;
+}
+
+.header__modal-text-wrapper {
+    margin: 0 0 0 65px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.header__modal-heading {
+    margin: 0;
+    padding: 0;
+
+    font-family: $geometria;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 53px;
+    color: $blueText;
+
+    @media (max-width: 1410px) {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    @media (max-width: 1160px) {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+}
+
+.header__modal-list {
+    margin: 25px 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    list-style: none;
+}
+
+.header__modal-link {
+    display: block;
+    margin: 0;
+    padding: 0;
+
+    font-family: $geometria;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 56px;
+    text-decoration: none;
+    color: $greyBlue;
+
+    @media (max-width: 1410px) {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    @media (max-width: 1160px) {
+        font-size: 20px;
+        line-height: 35px;
     }
 }
