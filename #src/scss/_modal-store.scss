@@ -1,0 +1,142 @@
+.modal-store {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 360px;
+
+    background: $kord-gradient;
+    border-radius: 20px;
+    z-index: 200;
+
+    transform: translate(-180px, -200%);
+
+    transition: all .5s ease;
+
+    &--opened {
+        transform: translate(-180px, 0);
+    }
+}
+
+.modal-store__heading {
+    margin: 0;
+    padding: 0;
+
+    font-family: $geometria;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    color: $trueWhite;
+}
+
+.modal-store__link {
+    position: relative;
+
+    box-sizing: border-box;
+    margin: 10px 0 0;
+    padding: 0 0 0 32px;
+
+    font-family: $geometria;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: $trueWhite;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 5px;
+
+        display: block;
+        width: 20px;
+        height: 10px;
+
+        background-image: url("../img/arrow.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+
+        transform: translateY(-5px);
+    }
+}
+
+.modal-store__phone {
+    margin: 25px 0 0;
+    padding: 0;
+
+    font-family: $geometria;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    color: $trueWhite;
+}
+
+.modal-store__form {
+    margin: 25px 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.modal-store__label {
+    margin: 0;
+    padding: 0;
+
+    font-family: $geometria;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $trueWhite;
+}
+
+.modal-store__textarea {
+    display: block;
+    box-sizing: border-box;
+    margin: 10px 0 0;
+    padding: 16px 14px;
+    width: 100%;
+
+    font-family: $geometria;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $trueBlack;
+
+    background: none;
+    background-color: $trueWhite;
+    border: none;
+    border-radius: 10px;
+}
+
+.modal-store__submit {
+    box-sizing: border-box;
+    margin: 10px 0 0;
+    padding: 16px 41px;
+
+    font-family: $geometria;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: $greyBlueDark;
+
+    background: none;
+    background-color: $trueWhite;
+    border: none;
+    border-radius: 80px;
+}
