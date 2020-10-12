@@ -26,3 +26,13 @@ adaptiveNavCloseButton.addEventListener('click', function(evt) {
     evt.preventDefault();
     adaptiveNavWindow.classList.toggle('modal-menu--opened');
 });
+
+// online store modal
+
+let modalStoreWindow = document.querySelector('.modal-store'),
+modalStoreToggleButton = document.querySelector('.header__store-link');
+
+modalStoreToggleButton.addEventListener('click', function(evt) {
+    evt.preventDefault();
+    modalStoreWindow.classList.toggle('modal-store--opened')
+});
