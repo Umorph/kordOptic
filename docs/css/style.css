@@ -1511,6 +1511,8 @@ input:focus {
   margin: 0;
   padding: 122px 0 0;
   width: 288px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   font-family: "Geometria", Helvetica, sans-serif;
   font-size: 28px;
   font-weight: 700;
