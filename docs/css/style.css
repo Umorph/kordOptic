@@ -1695,12 +1695,11 @@ input:focus {
 .news__item-description {
   margin: 16px 0 0;
   padding: 0;
-  width: 255px;
   font-family: "Geometria", Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 28px;
-  text-align: center;
+  text-align: left;
   color: #73778D;
 }
 
@@ -1890,7 +1889,7 @@ input:focus {
   margin: 20px 0 0;
   padding: 0;
   font-family: "Geometria", Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 28px;
   color: #73778D;
