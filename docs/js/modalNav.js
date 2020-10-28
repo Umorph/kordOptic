@@ -34,5 +34,9 @@ modalStoreToggleButton = document.querySelector('.header__store-link');
 
 modalStoreToggleButton.addEventListener('click', function(evt) {
     evt.preventDefault();
-    modalStoreWindow.classList.toggle('modal-store--opened')
+    modalStoreWindow.classList.toggle('modal-store--opened');
 });
+
+function closeModalWindow() {
+    modalStoreWindow.classList.toggle('modal-store--opened')
+}
