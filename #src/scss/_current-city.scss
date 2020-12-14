@@ -1,33 +1,62 @@
 .current-city {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .current-city__label {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
-    font-family: $geometria;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    color: $trueWhite;
+  font-family: $geometria;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: $trueWhite;
 }
 
 .current-city__button {
-    margin: 0 0 0 30px;
-    padding: 0;
+  position: relative;
 
-    font-family: $geometria;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    color: $trueWhite;
+  margin: 0 0 0 30px;
+  padding: 0;
 
-    background: none;
-    border: none;
+  font-family: $geometria;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: $trueWhite;
+
+  background: none;
+  border: none;
+
+  cursor: pointer;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -20px;
+
+    display: block;
+    width: 11px;
+    height: 1px;
+
+    border-radius: 2px;
+    background-color: $trueWhite;
+  }
+
+  &::before {
+    right: -15px;
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    right: -22px;
+    transform: rotate(-45deg);
+  }
 }
