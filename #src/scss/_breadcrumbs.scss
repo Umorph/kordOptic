@@ -1,0 +1,77 @@
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+}
+
+.breadcrumbs__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+
+  list-style: none;
+}
+
+.breadcrumbs__item {
+  position: relative;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  &:not(:first-child) {
+    padding-left: 20px;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 8px;
+
+      display: block;
+      width: 6px;
+      height: 1px;
+
+      background-color: $greyBlueDark;
+      border-radius: 2px;
+    }
+
+    &::before {
+      top: 43%;
+      transform: rotate(45deg);
+    }
+
+    &::after {
+      top: 57%;
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+.breadcrumbs__link {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 24px;
+  text-decoration: none;
+  color: $greyBlueDark;
+}
+
+// some outlines (only for dev)
+.header,
+.footer {
+  outline: 1px solid tomato;
+}
