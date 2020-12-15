@@ -5,14 +5,23 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
-  width: 240px;
+
+  text-decoration: none;
 }
 
-.inner-header__image {
+.inner-header__logo-image {
   margin: 0;
   padding: 0;
   width: 240px;
   height: auto;
+
+  @media screen and (max-width: 1260px) {
+    width: 180px;
+  }
+
+  @media screen and (max-width: 1160px) {
+    width: 160px;
+  }
 }
 
 .inner-header__logo-text {
@@ -27,4 +36,13 @@
   color: $greyBlue;
 
   transform: translateY(-10px);
+
+  @media screen and (max-width: 1160px) {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
 }
