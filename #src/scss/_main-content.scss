@@ -88,16 +88,13 @@
   padding: 0;
 }
 
-.main-content__description {
+.main-content__description-wrapper {
   margin: 35px auto 0;
   width: 310px;
-
-  font-family: $geometria;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 35px;
-  color: $greyBlueDark;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 
   @media screen and (min-width: 375px) {
     width: 375px;
@@ -118,4 +115,39 @@
   @media screen and (min-width: 1440px) {
     width: 1440px;
   }
+}
+
+.main-content__description {
+  height: 215px;
+
+  font-family: $geometria;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 35px;
+  color: $greyBlueDark;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @include smooth;
+}
+
+.main-content__description-button {
+  box-sizing: border-box;
+  margin: 10px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color: $blueMain;
+
+  background: none;
+  border: none;
+
+  cursor: pointer;
 }
