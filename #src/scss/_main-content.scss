@@ -74,3 +74,11 @@
 .main-content__breadcrumbs {
   margin: 10px 0 0 0;
 }
+
+.main-content__news-layout {
+  margin: 10px auto 0;
+  padding: 0;
+  @media screen and (min-width: 1024px) {
+    margin: 50px auto 0;
+  }
+}
