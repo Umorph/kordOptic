@@ -2573,15 +2573,55 @@ input:focus {
   padding: 0;
 }
 
-.main-content__description {
+.main-content__description-wrapper {
   margin: 35px auto 0;
   width: 310px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.main-content__description {
+  height: 215px;
   font-family: "Geometria", Helvetica, sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 16px;
   line-height: 35px;
   color: #3e425b;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.main-content__description-button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 10px 0 0;
+  padding: 0;
+  font-family: "Geometria", Helvetica, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #4351D8;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .footer {
@@ -3645,7 +3685,7 @@ input:focus {
 }
 
 @media screen and (min-width: 375px) {
-  .main-content__description {
+  .main-content__description-wrapper {
     width: 375px;
   }
 }
@@ -3662,7 +3702,7 @@ input:focus {
 }
 
 @media screen and (min-width: 425px) {
-  .main-content__description {
+  .main-content__description-wrapper {
     width: 425px;
   }
 }
@@ -4008,7 +4048,7 @@ input:focus {
     height: 22px;
   }
 
-  .main-content__description {
+  .main-content__description-wrapper {
     width: 768px;
   }
 }
@@ -4106,7 +4146,7 @@ input:focus {
     margin: 50px auto 0;
   }
 
-  .main-content__description {
+  .main-content__description-wrapper {
     width: 1024px;
   }
 }
@@ -4144,7 +4184,7 @@ input:focus {
 }
 
 @media screen and (min-width: 1440px) {
-  .main-content__description {
+  .main-content__description-wrapper {
     width: 1440px;
   }
 }
