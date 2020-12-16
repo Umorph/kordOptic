@@ -87,3 +87,35 @@
   margin: 0 auto;
   padding: 0;
 }
+
+.main-content__description {
+  margin: 35px auto 0;
+  width: 310px;
+
+  font-family: $geometria;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 35px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 375px) {
+    width: 375px;
+  }
+
+  @media screen and (min-width: 425px) {
+    width: 425px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 1024px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 1440px;
+  }
+}
