@@ -147,6 +147,144 @@
                     </ul>
                     <button class="lens-type__toggle-button" type="button">Показать еще</button>
                 </div>
+                <div class="filter__search-filter search-filter">
+                    <button class="search-filter__hide-button" type="button">Показать фильтры</button>
+                    <form class="search-filter__form" action="#">
+                        <ul class="search-filter__filters-list">
+                            <li class="search-filter__filters-item">
+                                <button class="search-filter__toggle-button" type="button">Сортировать по</button>
+                                <ul class="search-filter__checkbox-list">
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-popular">
+                                        <label class="search-filter__label" for="checkbox-popular">По популярности</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-price-up">
+                                        <label class="search-filter__label" for="checkbox-price-up">По возрастанию цены</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-price-down">
+                                        <label class="search-filter__label" for="checkbox-price-down">По убыванию цены</label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="search-filter__filters-item">
+                                <button class="search-filter__toggle-button" type="button">Бренд</button>
+                                <ul class="search-filter__checkbox-list">
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-acuvue">
+                                        <label class="search-filter__label" for="checkbox-acuvue">Acuvue</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-air-optix">
+                                        <label class="search-filter__label" for="checkbox-air-optix">Air Optix</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-airway">
+                                        <label class="search-filter__label" for="checkbox-airway">Airway</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-bauch-&-lomb">
+                                        <label class="search-filter__label" for="checkbox-bauch-&-lomb">Bauch & Lomb</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-biofinity">
+                                        <label class="search-filter__label" for="checkbox-biofinity">Biofinity</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-dailies">
+                                        <label class="search-filter__label" for="checkbox-dailies">Dailies</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-freshLook">
+                                        <label class="search-filter__label" for="checkbox-freshLook">FreshLook</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-oftalmix">
+                                        <label class="search-filter__label" for="checkbox-oftalmix">Офтальмикс</label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="search-filter__filters-item">
+                                <button class="search-filter__toggle-button" type="button">Тип линз</button>
+                                <ul class="search-filter__checkbox-list">
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-multifocal">
+                                        <label class="search-filter__label" for="checkbox-multifocal">Мультифокальные</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-transparent">
+                                        <label class="search-filter__label" for="checkbox-transparent">Прозрачные</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-toric">
+                                        <label class="search-filter__label" for="checkbox-toric">Торические(встигматика)</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-colored">
+                                        <label class="search-filter__label" for="checkbox-colored">Цветные</label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="search-filter__filters-item">
+                                <button class="search-filter__toggle-button" type="button">Срок замены</button>
+                                <ul class="search-filter__checkbox-list">
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-fortnightly">
+                                        <label class="search-filter__label" for="checkbox-fortnightly">Двухнедельные</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-one-month">
+                                        <label class="search-filter__label" for="checkbox-one-month">На один месяц</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-three-month">
+                                        <label class="search-filter__label" for="checkbox-three-month">На три месяца</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-one-day">
+                                        <label class="search-filter__label" for="checkbox-one-day">Однодневные</label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="search-filter__filters-item">
+                                <button class="search-filter__toggle-button" type="button">Товары по подписке</button>
+                                <ul class="search-filter__checkbox-list">
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-subscribe">
+                                        <label class="search-filter__label" for="checkbox-subscribe">Да</label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="search-filter__filters-item">
+                                <button class="search-filter__toggle-button" type="button">Линейка</button>
+                                <ul class="search-filter__checkbox-list">
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-acuvue-moist">
+                                        <label class="search-filter__label" for="checkbox-acuvue-moist">Acuvue Moist</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-acuvue-oasys">
+                                        <label class="search-filter__label" for="checkbox-acuvue-oasys">Acuvue Oasys</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-acuvue-trueye">
+                                        <label class="search-filter__label" for="checkbox-acuvue-trueye">Acuvue TruEye</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-air-optix-aqua">
+                                        <label class="search-filter__label" for="checkbox-air-optix-aqua">Air Optix Aqua</label>
+                                    </li>
+                                    <li class="search-filter__checkbox-item">
+                                        <input class="search-filter__checkbox visually-hidden" type="checkbox" id="checkbox-air-optix-colors">
+                                        <label class="search-filter__label" for="checkbox-air-optix-colors">Air Optix Colors</label>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </form>
+                    <a class="search-filter__more-link" href="#">Еще</a>
+                </div>
             </div>
         </section>
     </main>
