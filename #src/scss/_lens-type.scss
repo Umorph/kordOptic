@@ -137,6 +137,8 @@
 
     background-color: $trueWhite;
     border-radius: 1px;
+
+    @include smooth();
   }
 
   &::before {
@@ -154,4 +156,12 @@
   @media screen and (min-width: 1024px) {
     display: none;
   }
+}
+
+.lens-type__list--opened ~ .lens-type__toggle-button::before {
+  transform: rotate(-45deg);
+}
+
+.lens-type__list--opened ~ .lens-type__toggle-button::after {
+  transform: rotate(45deg);
 }
