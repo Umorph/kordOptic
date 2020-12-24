@@ -151,3 +151,18 @@
 
   cursor: pointer;
 }
+
+.main-content__catalog {
+  margin: 15px auto 0;
+  padding: 0;
+
+  @media screen and (min-width: 768px) {
+    margin: 30px auto 0;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 50px auto 0;
+  }
+
+  @include outline(purple);
+}
