@@ -30,8 +30,6 @@
     line-height: 50px;
     text-align: left;
   }
-
-  @include outline(red);
 }
 
 .catalog__filter {
@@ -45,6 +43,4 @@
   @media screen and (min-width: 1024px) {
     margin: 50px 0 0;
   }
-
-  @include outline(blue);
 }

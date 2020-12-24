@@ -5,8 +5,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-
-  @include outline(green);
 }
 
 .lens-type__list {
