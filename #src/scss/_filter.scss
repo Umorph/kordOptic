@@ -1,9 +1,20 @@
 .filter {
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-row-gap: 15px;
 }
 
 .filter__lens-type {
   margin: 0;
   padding: 0;
+
+  @include outline(red);
+}
+
+.filter__search-filter {
+  margin: 0;
+  padding: 0;
+  
+  @include outline(red);
 }

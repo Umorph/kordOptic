@@ -1,0 +1,203 @@
+.search-filter {
+    margin: 0;
+    padding: 0;
+}
+
+.search-filter__hide-button {
+    position: relative;
+
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+    padding: 0 20px 0 25px;
+
+    font-family: $geometria;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 25px;
+    color: $blueMain;
+
+    background: none;
+    background-image: url("../img/funnel-icon.svg");
+    background-position: 2px 3px;
+    background-repeat: no-repeat;
+    border: none;
+
+    cursor: pointer;
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: 52%;
+        right: 10px;
+
+        display: block;
+        width: 5px;
+        height: 1px;
+
+        background-color: $blueMain;
+        border-radius: 3px;
+    }
+
+    &::before {
+        right: 9.5px;
+        transform: rotate(45deg);
+    }
+
+    &::after {
+        right: 6.5px;
+        transform: rotate(-45deg);
+    }
+}
+
+.search-filter__form {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.search-filter__filters-list {
+    margin: 15px 0 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.search-filter__filters-item {
+    margin: 0;
+    padding: 0;
+}
+
+.search-filter__toggle-button {
+    position: relative;
+
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+    padding: 0 0 0 20px;
+
+    font-family: $geometria;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 25px;
+    color: $blueMain;
+
+    background: none;
+    border: none;
+
+    cursor: pointer;
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: 48%;
+        left: 8px;
+
+        display: block;
+        width: 7px;
+        height: 3px;
+
+        background-color: $blueMain;
+        border-radius: 7px;
+    }
+
+    &::before {
+        left: 6.5px;
+        transform: rotate(45deg);
+    }
+
+    &::after {
+        left: 9.5px;
+        transform: rotate(-45deg);
+    }
+}
+
+.search-filter__checkbox-list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.search-filter__checkbox-item {
+    margin: 0;
+    padding: 0;
+}
+
+.search-filter__checkbox {
+    margin: 0;
+    padding: 0;
+}
+
+.search-filter__label {
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+    padding: 0 0 0 30px;
+    min-height: 20px;
+
+    font-family: $geometria;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 24px;
+    color: $blueMain;
+    
+    cursor: pointer;
+    user-select: none;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 2px;
+
+        display: block;
+        width: 20px;
+        height: 20px;
+
+        background-image: url("../img/catalog-checkbox.svg");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 7px;
+        left: 5px;
+
+        display: none;
+        width: 14px;
+        height: 10px;
+
+        background-image: url("../img/catalog-checkbox-checked.svg");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.search-filter__checkbox:checked ~ .search-filter__label::after {
+    display: block;
+}
+
+.search-filter__more-link {
+    box-sizing: border-box;
+    display: none;
+    margin: 0;
+    padding: 0;
+
+    font-family: $geometria;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: $blueMain;
+}
