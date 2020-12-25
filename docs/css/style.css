@@ -2726,6 +2726,7 @@ input:focus {
   margin: 0;
   padding: 0;
   width: 100%;
+  display: none;
 }
 
 .search-filter__filters-list {
@@ -2744,7 +2745,7 @@ input:focus {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: block;
-  margin: 0;
+  margin: 20px 0 0;
   padding: 0 0 0 20px;
   font-family: "Geometria", Helvetica, sans-serif;
   font-weight: 500;
@@ -2865,6 +2866,10 @@ input:focus {
   font-size: 20px;
   line-height: 24px;
   color: #4351D8;
+}
+
+.search-filter__hide-button--opened ~ .search-filter__form {
+  display: block;
 }
 
 .catalog-layout {
@@ -4874,6 +4879,10 @@ input:focus {
 
   .search-filter__hide-button {
     display: none;
+  }
+
+  .search-filter__form {
+    display: block;
   }
 
   .search-filter__toggle-button {

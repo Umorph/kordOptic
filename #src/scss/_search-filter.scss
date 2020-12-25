@@ -60,6 +60,11 @@
     margin: 0;
     padding: 0;
     width: 100%;
+    display: none;
+
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
 }
 
 .search-filter__filters-list {
@@ -79,7 +84,7 @@
 
     box-sizing: border-box;
     display: block;
-    margin: 0;
+    margin: 20px 0 0;
     padding: 0 0 0 20px;
 
     font-family: $geometria;
@@ -226,4 +231,8 @@
     @media screen and (min-width: 768px) {
         display: block;
     }
+}
+
+.search-filter__hide-button--opened ~ .search-filter__form {
+    display: block;
 }
