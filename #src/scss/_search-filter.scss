@@ -50,6 +50,10 @@
         right: 6.5px;
         transform: rotate(-45deg);
     }
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
 }
 
 .search-filter__form {
@@ -114,6 +118,11 @@
         left: 9.5px;
         transform: rotate(-45deg);
     }
+
+    @media screen and (min-width: 768px) {
+        font-size: 22px;
+        line-height: 24px;
+    }
 }
 
 .search-filter__checkbox-list {
@@ -121,11 +130,19 @@
     padding: 0;
 
     list-style: none;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 15px;
+    }
 }
 
 .search-filter__checkbox-item {
     margin: 0;
     padding: 0;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 10px;
+    }
 }
 
 .search-filter__checkbox {
@@ -182,6 +199,11 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }
 
 .search-filter__checkbox:checked ~ .search-filter__label::after {
@@ -200,4 +222,8 @@
     font-size: 20px;
     line-height: 24px;
     color: $blueMain;
+
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
 }
