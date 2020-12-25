@@ -164,3 +164,23 @@
     margin: 50px auto 20px;
   }
 }
+
+.main-content__warnings {
+  margin: 0 auto 25px;
+  padding: 0;
+  max-width: 1410px;
+
+  font-family: $geometria;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.25em;
+  text-align: center;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
