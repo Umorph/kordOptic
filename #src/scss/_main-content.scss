@@ -184,3 +184,15 @@
     line-height: 24px;
   }
 }
+
+.main-content__promo {
+  margin: 15px auto 0;
+  padding: 0;
+  max-width: 1410px;
+
+  @media screen and (min-width: 1024px) {
+    margin: 50px auto 0;
+  }
+
+  // @include outline(red);
+}
