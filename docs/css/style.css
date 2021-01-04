@@ -3756,6 +3756,19 @@ input:focus {
   max-width: 1410px;
 }
 
+.main-content__promo-description {
+  margin: 20px auto;
+  padding: 0;
+  max-width: 1410px;
+  font-family: "Geometria", Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
 .footer {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -4851,6 +4864,12 @@ input:focus {
   .main-content__description-wrapper {
     width: 425px;
   }
+
+  .main-content__promo-description {
+    margin: 25px auto;
+    font-size: 12px;
+    line-height: 20px;
+  }
 }
 
 @media (min-width: 475px) {
@@ -5337,6 +5356,12 @@ input:focus {
   .main-content__catalog {
     margin: 30px auto 20px;
   }
+
+  .main-content__promo-description {
+    margin: 30px auto;
+    font-size: 15px;
+    line-height: 25px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -5648,6 +5673,12 @@ input:focus {
   .main-content__promo {
     margin: 50px auto 0;
   }
+
+  .main-content__promo-description {
+    margin: 40px auto;
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 @media (min-width: 1150px) {
@@ -5690,6 +5721,12 @@ input:focus {
 
   .promo-layout__link {
     margin-top: 50px;
+  }
+
+  .main-content__promo-description {
+    margin: 50px auto;
+    font-size: 35px;
+    line-height: 45px;
   }
 }
 
