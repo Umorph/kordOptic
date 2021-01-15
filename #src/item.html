@@ -127,29 +127,32 @@
         <h2 class="main-content__item-heading">
             Acuvue OASYS with Hydraclear Plus (6 линз)
         </h2>
-        <div class="main-content__item-preview item-preview">
-            <button class="item-preview__favorites-button" type="button">В избранное</button>
-            <picture class="item-preview__big-image">
-                <img src="#" alt="Превью товара">
-            </picture>
-            <ul class="item-preview__minified-list">
-                <li class="item-preview__minified-item item-preview__minified-item--current">
-                    <picture class="item-preview__minified-image">
-                        <img src="#" alt="Мини-превью">
-                    </picture>
-                </li>
-                <li class="item-preview__minified-item item-preview__minified-item--current">
-                    <picture class="item-preview__minified-image">
-                        <img src="#" alt="Мини-превью">
-                    </picture>
-                </li>
-                <li class="item-preview__minified-item item-preview__minified-item--current">
-                    <picture class="item-preview__minified-image">
-                        <img src="#" alt="Мини-превью">
-                    </picture>
-                </li>
-            </ul>
+        <div class="main-content__item-page item-page">
+            <div class="item-page__item-preview item-preview">
+                <button class="item-preview__favorites-button" type="button" onclick="likeToggle(this);">Добавить в избранное</button>
+                <picture class="item-preview__big-image">
+                    <img src="img/catalog-preview.webp" alt="Превью товара">
+                </picture>
+                <ul class="item-preview__minified-list">
+                    <li class="item-preview__minified-item item-preview__minified-item--current">
+                        <picture class="item-preview__minified-image">
+                            <img src="img/catalog-preview.webp" alt="Мини-превью">
+                        </picture>
+                    </li>
+                    <li class="item-preview__minified-item">
+                        <picture class="item-preview__minified-image">
+                            <img src="img/catalog-preview.webp" alt="Мини-превью">
+                        </picture>
+                    </li>
+                    <li class="item-preview__minified-item">
+                        <picture class="item-preview__minified-image">
+                            <img src="img/catalog-preview.webp" alt="Мини-превью">
+                        </picture>
+                    </li>
+                </ul>
+            </div>
         </div>
     </main>
+    <script src="js/like.min.js"></script>
 </body>
 </html>
