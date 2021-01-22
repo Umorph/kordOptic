@@ -265,6 +265,10 @@
     font-size: 50px;
     line-height: 54px;
   }
+}
 
-  @include outline(tomato);
+.main-content__item-page {
+  margin: 15px auto 0;
+  padding: 0;
+  max-width: 1410px;
 }
