@@ -1,0 +1,39 @@
+.item-page {
+  margin: 0;
+  padding: 0;
+  min-width: 300px;
+
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.3fr;
+  }
+}
+
+.item-page__item-preview {
+  margin: 0 auto;
+  padding: 0;
+
+  @media screen and (min-width: 768px) {
+    margin: 25px 0 0;
+  }
+}
+
+.item-page__item-parameters {
+  margin: 25px auto 0;
+  padding: 0;
+
+  @media screen and (min-width: 768px) {
+    margin: 0;
+    grid-area: 1 / 2 / 3 / 3;
+  }
+}
+
+.item-page__item-documentation {
+  margin: 25px auto 0;
+  padding: 0;
+
+  @media screen and (min-width: 768px) {
+    margin: 50px 0 0;
+  }
+}
