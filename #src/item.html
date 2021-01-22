@@ -151,8 +151,205 @@
                     </li>
                 </ul>
             </div>
+            <div class="item-page__item-parameters item-parameters">
+                <h3 class="item-parameters__heading">Параметры контактных линз</h3>
+                <form class="item-parameters__form" action="https://echo.htmlacademy.ru" method="POST">
+                    <ul class="item-parameters__list">
+                        <li class="item-parameters__item">
+                            <h4 class="item-parameters__param-topic">Рефрракция глаз:</h4>
+                            <div class="item-parameters__buttons-wrapper">
+                                <button class="item-parameters__toggle-button item-parameters__toggle-button--active item-parameters__toggle-button--equal" type='reset'>Одинаковая</button>
+                                <button class="item-parameters__toggle-button item-parameters__toggle-button--differing" type='reset'>Разничающиеся</button>
+                            </div>
+                        </li>
+                        <li class="item-parameters__item">
+                            <h4 class="item-parameters__param-topic">Диоптрии:</h4>
+                            <div class="item-parameters__input-wrapper">
+                                <div class="item-parameters__select-wrapper item-parameters__select-wrapper--both">
+                                    <select class="item-parameters__select" name="both-len-diopters" required>
+                                        <option class="visually-hidden" hidden disabled selected value></option>
+                                        <option class="item-parameters__option" value="-1">-1</option>
+                                        <option class="item-parameters__option" value="-2">-2</option>
+                                        <option class="item-parameters__option" value="-3">-3</option>
+                                        <option class="item-parameters__option" value="-4">-4</option>
+                                        <option class="item-parameters__option" value="-5">-5</option>
+                                        <option class="item-parameters__option" value="-6">-6</option>
+                                        <option class="item-parameters__option" value="-7">-7</option>
+                                        <option class="item-parameters__option" value="-8">-8</option>
+                                    </select>
+                                </div>
+                                <div class="item-parameters__select-wrapper item-parameters__select-wrapper--hidden item-parameters__select-wrapper--single">
+                                    <label class="item-parameters__label" for="right-len-diopters">Правый глаз</label>
+                                    <select class="item-parameters__select" name="right-len-diopters" id="right-len-diopters">
+                                        <option class="visually-hidden" hidden disabled selected value></option>
+                                        <option class="item-parameters__option" value="-1">-1</option>
+                                        <option class="item-parameters__option" value="-2">-2</option>
+                                        <option class="item-parameters__option" value="-3">-3</option>
+                                        <option class="item-parameters__option" value="-4">-4</option>
+                                        <option class="item-parameters__option" value="-5">-5</option>
+                                        <option class="item-parameters__option" value="-6">-6</option>
+                                        <option class="item-parameters__option" value="-7">-7</option>
+                                        <option class="item-parameters__option" value="-8">-8</option>
+                                    </select>
+                                </div>
+                                <div class="item-parameters__select-wrapper item-parameters__select-wrapper--hidden item-parameters__select-wrapper--single">
+                                    <label class="item-parameters__label" for="left-len-diopters">Левый глаз</label>
+                                    <select class="item-parameters__select" name="left-len-diopters" id="left-len-diopters">
+                                        <option class="visually-hidden" hidden disabled selected value></option>
+                                        <option class="item-parameters__option" value="-1">-1</option>
+                                        <option class="item-parameters__option" value="-2">-2</option>
+                                        <option class="item-parameters__option" value="-3">-3</option>
+                                        <option class="item-parameters__option" value="-4">-4</option>
+                                        <option class="item-parameters__option" value="-5">-5</option>
+                                        <option class="item-parameters__option" value="-6">-6</option>
+                                        <option class="item-parameters__option" value="-7">-7</option>
+                                        <option class="item-parameters__option" value="-8">-8</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-parameters__item">
+                            <h4 class="item-parameters__param-topic">Радиус кривизны:</h4>
+                            <div class="item-parameters__input-wrapper">
+                                <div class="item-parameters__select-wrapper item-parameters__select-wrapper--both">
+                                    <select class="item-parameters__select" name="both-curve-radius" required>
+                                        <option class="visually-hidden" hidden disabled selected value></option>
+                                        <option class="item-parameters__option" value="8.0">8.0</option>
+                                        <option class="item-parameters__option" value="8.1">8.1</option>
+                                        <option class="item-parameters__option" value="8.2">8.2</option>
+                                        <option class="item-parameters__option" value="8.3">8.3</option>
+                                        <option class="item-parameters__option" value="8.4">8.4</option>
+                                        <option class="item-parameters__option" value="8.5">8.5</option>
+                                        <option class="item-parameters__option" value="8.6">8.6</option>
+                                        <option class="item-parameters__option" value="8.7">8.7</option>
+                                    </select>
+                                </div>
+                                <div class="item-parameters__select-wrapper item-parameters__select-wrapper--hidden item-parameters__select-wrapper--single">
+                                    <label class="item-parameters__label" for="right-curve-radius">Правый глаз</label>
+                                    <select class="item-parameters__select" name="right-curve-radius" id="right-curve-radius">
+                                        <option class="visually-hidden" hidden disabled selected value></option>
+                                        <option class="item-parameters__option" value="8.0">8.0</option>
+                                        <option class="item-parameters__option" value="8.1">8.1</option>
+                                        <option class="item-parameters__option" value="8.2">8.2</option>
+                                        <option class="item-parameters__option" value="8.3">8.3</option>
+                                        <option class="item-parameters__option" value="8.4">8.4</option>
+                                        <option class="item-parameters__option" value="8.5">8.5</option>
+                                        <option class="item-parameters__option" value="8.6">8.6</option>
+                                        <option class="item-parameters__option" value="8.7">8.7</option>
+                                    </select>
+                                </div>
+                                <div class="item-parameters__select-wrapper item-parameters__select-wrapper--hidden item-parameters__select-wrapper--single">
+                                    <label class="item-parameters__label" for="left-curve-radius">Левый глаз</label>
+                                    <select class="item-parameters__select" name="left-curve-radius" id="left-curve-radius">
+                                        <option class="visually-hidden" hidden disabled selected value></option>
+                                        <option class="item-parameters__option" value="8.0">8.0</option>
+                                        <option class="item-parameters__option" value="8.1">8.1</option>
+                                        <option class="item-parameters__option" value="8.2">8.2</option>
+                                        <option class="item-parameters__option" value="8.3">8.3</option>
+                                        <option class="item-parameters__option" value="8.4">8.4</option>
+                                        <option class="item-parameters__option" value="8.5">8.5</option>
+                                        <option class="item-parameters__option" value="8.6">8.6</option>
+                                        <option class="item-parameters__option" value="8.7">8.7</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-parameters__item">
+                            <h4 class="item-parameters__param-topic">Аддидация:</h4>
+                            <div class="item-parameters__input-wrapper">
+                                <div class="item-parameters__select-wrapper item-parameters__select-wrapper--both">
+                                    <select class="item-parameters__select" name="both-add-power" required>
+                                        <option class="visually-hidden" hidden disabled selected value></option>
+                                        <option class="item-parameters__option" value="low">low</option>
+                                        <option class="item-parameters__option" value="medium">medium</option>
+                                        <option class="item-parameters__option" value="high">high</option>
+                                    </select>
+                                </div>
+                                <div class="item-parameters__select-wrapper item-parameters__select-wrapper--hidden item-parameters__select-wrapper--single">
+                                    <label class="item-parameters__label" for="right-add-power">Правый глаз</label>
+                                    <select class="item-parameters__select" name="right-add-power" id="right-add-power">
+                                        <option class="visually-hidden" hidden disabled selected value></option>
+                                        <option class="item-parameters__option" value="low">low</option>
+                                        <option class="item-parameters__option" value="medium">medium</option>
+                                        <option class="item-parameters__option" value="high">high</option>
+                                    </select>
+                                </div>
+                                <div class="item-parameters__select-wrapper item-parameters__select-wrapper--hidden item-parameters__select-wrapper--single">
+                                    <label class="item-parameters__label" for="left-add-power">Левый глаз</label>
+                                    <select class="item-parameters__select" name="left-add-power" id="left-add-power">
+                                        <option class="visually-hidden" hidden disabled selected value></option>
+                                        <option class="item-parameters__option" value="low">low</option>
+                                        <option class="item-parameters__option" value="medium">medium</option>
+                                        <option class="item-parameters__option" value="high">high</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-parameters__item">
+                            <h4 class="item-parameters__param-topic">Количество:</h4>
+                            <div class="item-parameters__input-wrapper">
+                                <div class="item-parameters__count-wrapper item-parameters__count-wrapper--both">
+                                    <button class="item-parameters__count-button item-parameters__count-button--decrease" type="button" onclick="changeTheNumber(this)">-</button>
+                                    <input class="item-parameters__lens-count-input" type="number" id="both-lens-count" name="both-lens-count" value="0" min="1" required>
+                                    <button class="item-parameters__count-button item-parameters__count-button--increase" type="button" onclick="changeTheNumber(this)">+</button>
+                                </div>
+                                <div class="item-parameters__count-wrapper item-parameters__count-wrapper--hidden item-parameters__count-wrapper--single">
+                                    <label class="item-parameters__label" for="right-lens-count">Правый глаз</label>
+                                    <button class="item-parameters__count-button item-parameters__count-button--decrease" type="button" onclick="changeTheNumber(this)">-</button>
+                                    <input class="item-parameters__lens-count-input" type="number" id="right-lens-count" name="right-lens-count" value="0" min="1" disabled>
+                                    <button class="item-parameters__count-button item-parameters__count-button--increase" type="button" onclick="changeTheNumber(this)">+</button>
+                                </div>
+                                <div class="item-parameters__count-wrapper item-parameters__count-wrapper--hidden item-parameters__count-wrapper--single">
+                                    <label class="item-parameters__label" for="left-lens-count">Левый глаз</label>
+                                    <button class="item-parameters__count-button item-parameters__count-button--decrease" type="button" onclick="changeTheNumber(this)">-</button>
+                                    <input class="item-parameters__lens-count-input" type="number" id="left-lens-count" name="left-lens-count" value="0" min="1" disabled>
+                                    <button class="item-parameters__count-button item-parameters__count-button--increase" type="button" onclick="changeTheNumber(this)">+</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-parameters__item">
+                            <h4 class="item-parameters__param-topic">Условия доставки:</h4>
+                            <div class="item-parameters__input-wrapper">
+                                <div class="item-parameters__delivery-select-wrapper item-parameters__delivery-select-wrapper--both">
+                                    <select class="item-parameters__delivery-select" name="delivery" required>
+                                        <option class="visually-hidden" selected value="pickup">В пункт самовывоза</option>
+                                        <option class="item-parameters__option" value="courier">Доставка курьером</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-parameters__item item-parameters__item--horizontal">
+                            <h4 class="item-parameters__param-topic">Срок поставки:</h4>
+                            <div class="item-parameters__delivery-time">
+                                <span class="item-parameters__time-value">2-7</span> дней
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="item-parameters__side-list">
+                        <li class="item-parameters__side-item">
+                            <a class="item-parameters__side-link" href="#">Все параметры:</a>
+                        </li>
+                        <li class="item-parameters__side-item">
+                            <a class="item-parameters__side-link" href="#">Подробнее об условиях доставки</a>
+                        </li>
+                    </ul>
+                    <p class="item-parameters__gift">
+                        Купи 2 упаковки и получи скидку 50% на третью! Акция действует только в интернет-магазине до конца декабря.
+                    </p>
+                    <div class="item-parameters__price-wrapper">
+                        <p class="item-parameters__price-value">1 240 ₽</p>
+                        <button class="item-parameters__buy-button" type="submit">Купить</button>
+                        <a class="item-parameters__pay-method-link" href="#">Способы оплаты</a>
+                        <button class="item-parameters__subscribe-button" type="button">Оформить подписку</button>
+                    </div>
+                </form>
+            </div>
+            <div class="item-page__item-documentation item-documentation">
+                
+            </div> 
         </div>
     </main>
     <script src="js/like.min.js"></script>
+    <script src="js/item-form.min.js"></script>
 </body>
 </html>
