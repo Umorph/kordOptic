@@ -3,6 +3,35 @@
   padding: 0;
 }
 
+.catalog-layout__heading {
+  margin: 0 0 25px;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 425px) {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 0 0 30px;
+
+    font-size: 35px;
+    line-height: 50px;
+  }
+}
+
 .catalog-layout__list {
   margin: 0;
   padding: 0;
@@ -12,6 +41,43 @@
   align-items: center;
 
   list-style: none;
+
+  @include smooth;
+}
+
+.catalog-layout__list--grid {
+  display: grid;
+  height: 350px;
+  overflow: hidden;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: auto;
+    height: 470px;
+  }
+
+  @media screen and (min-width: 1320px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: auto;
+  }
+}
+
+.catalog-layout__list--grid .catalog-layout__item {
+  margin: 0 0 15px;
+}
+
+.catalog-layout__list--opened {
+  height: auto;
+  overflow: visible;
+
+  @media screen and (min-width: 1024px) {
+    height: auto;
+  }
 }
 
 .catalog-layout__item {
@@ -467,4 +533,125 @@
   height: auto;
 
   @include smooth();
+}
+
+.catalog-layout__favorites-button {
+  position: relative;
+
+  box-sizing: border-box;
+  margin: 15px 0 0 15px;
+  padding: 0 0 0 25px;
+
+  font-family: $geometria;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: $greyBlueDark;
+
+  background: none;
+  border: none;
+
+  cursor: pointer;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+    width: 15px;
+    height: 15px;
+
+    background-image: url("../img/like-icon.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+    width: 15px;
+    height: 15px;
+
+    background-image: url("../img/like-icon-checked.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    transform: scale(0);
+
+    @include smooth;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 0 0 0 35px;
+
+    font-size: 16px;
+    line-height: 25px;
+
+    &::before,
+    &::after {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  &--checked {
+    &::after {
+      transform: scale(1);
+    }
+  }
+}
+
+.catalog-layout__toggle-button {
+  position: relative;
+
+  box-sizing: border-box;
+  margin: 25px auto 0;
+  padding: 0 10px 0 0;
+  display: block;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: $blueMain;
+
+  background: transparent;
+  border: none;
+
+  cursor: pointer;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 2px;
+
+    display: block;
+    width: 5px;
+    height: 1px;
+
+    background-color: $blueMain;
+    border-radius: 1px;
+  }
+
+  &::before {
+    transform: rotate(45deg) translateY(-2px);
+  }
+
+  &::after {
+    transform: rotate(-45deg) translateY(2px);
+  }
+
+  @include outline(red);
 }
