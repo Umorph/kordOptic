@@ -1,0 +1,66 @@
+.info {
+  margin: 0;
+  padding: 0;
+
+  box-shadow: 0px -10px 25px rgba(62, 66, 91, 0.15);
+  border-radius: 25px;
+}
+
+.info__toggle {
+  margin: 0;
+  padding: 0;
+}
+
+.info__specification {
+  margin: 25px 0 0;
+  padding: 0;
+
+  @media screen and (min-width: 768px) {
+    margin: 50px 0 0;
+  }
+}
+
+.info__delivery {
+  margin: 25px 0 0;
+  padding: 0;
+
+  @media screen and (min-width: 768px) {
+    margin: 50px 0 0;
+  }
+}
+
+.info__description {
+  margin: 25px 0 0;
+  padding: 0;
+
+  @media screen and (min-width: 768px) {
+    margin: 50px 0 0;
+  }
+}
+
+.info__warning {
+  margin: 25px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.25em;
+  text-align: center;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 768px) {
+    margin: 50px 0 0;
+    padding: 0 0 150px;
+
+    font-size: 16px;
+  }
+  @media screen and (min-width: 1024px) {
+    margin: 75px 0 0;
+    padding: 0 0 350px;
+
+    font-size: 20px;
+  }
+}
