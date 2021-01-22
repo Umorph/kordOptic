@@ -1,0 +1,123 @@
+.item-documentation {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  max-width: 580px;
+}
+
+.item-documentation__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.item-documentation__item {
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  &--with-modal {
+    &:hover .item-documentation__modal-wrapper {
+      display: block;
+    }
+  }
+}
+
+.item-documentation__link {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 0 0 40px;
+  display: block;
+  min-height: 25px;
+
+  font-family: $geometria;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: $blueMain;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+    width: 25px;
+    height: 25px;
+
+    background-image: url("../img/paper-icon.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 16px;
+    line-height: 35px;
+    &::before {
+      width: 35px;
+      height: 35px;
+    }
+  }
+}
+
+.item-documentation__modal-wrapper {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5px 10px;
+  display: none;
+
+  background-color: $trueWhite;
+  box-shadow: 0px 15px 25px rgba(62, 66, 91, 0.25);
+  border-radius: 15px;
+
+  z-index: 10;
+}
+
+.item-documentation__modal-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.item-documentation__modal-item {
+  margin: 0;
+  padding: 0;
+
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}
+
+.item-documentation__modal-link {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: block;
+
+  font-family: $geometria;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 25px;
+  color: $blueMain;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 13px;
+  }
+}
