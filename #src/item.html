@@ -521,11 +521,143 @@
             </ul>
             <button class="catalog-layout__toggle-button" type="button">Увидеть больше</button>
         </div>
-
+        <div class="main-content__info info">
+            <div class="info__toggle toggle">
+                <ul class="toggle__list">
+                    <li class="toggle__item">
+                        <button class="toggle__button toggle__button--specification toggle__button--opened" type="button" onclick="reactToEvent(this)">Характеристики</button>
+                    </li>
+                    <li class="toggle__item">
+                        <button class="toggle__button toggle__button--delivery" type="button" onclick="reactToEvent(this)">Доставка</button>
+                    </li>
+                    <li class="toggle__item">
+                        <button class="toggle__button toggle__button--description" type="button" onclick="reactToEvent(this)">Описание</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="info__specification specification specification--opened">
+                <h2 class="specification__heading">Характеристики</h2>
+                <ul class="specification__list">
+                    <li class="specification__item">
+                        <p class="specification__name">Бренд:</p>
+                        <p class="specification__value">Acuvue</p>
+                    </li>
+                    <li class="specification__item">
+                        <p class="specification__name">Тип линз:</p>
+                        <p class="specification__value">Прозрачные</p>
+                    </li>
+                    <li class="specification__item">
+                        <p class="specification__name">Срок замены:</p>
+                        <p class="specification__value">Двухнедельные</p>
+                    </li>
+                    <li class="specification__item">
+                        <p class="specification__name">Товар по подписке:</p>
+                        <p class="specification__value">Да</p>
+                    </li>
+                    <li class="specification__item">
+                        <p class="specification__name">Линейка:</p>
+                        <p class="specification__value">Acuvue Oasys</p>
+                    </li>
+                    <li class="specification__item">
+                        <p class="specification__name">Производитель:</p>
+                        <p class="specification__value">Johnson & Johnson</p>
+                    </li>
+                    <li class="specification__item">
+                        <p class="specification__name">Количетсво линз в упаковке:</p>
+                        <p class="specification__value">6 линз</p>
+                    </li>
+                    <li class="specification__item">
+                        <p class="specification__name">Вид материала</p>
+                        <p class="specification__value">Силикон-гидрогель</p>
+                    </li>
+                    <li class="specification__item">
+                        <p class="specification__name">Влагосодержание</p>
+                        <p class="specification__value">38%</p>
+                    </li>
+                    <li class="specification__item">
+                        <p class="specification__name">Кислородопроницаемость</p>
+                        <p class="specification__value">147 Dk/t</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="info__delivery delivery">
+                <h2 class="delivery__heading">Доставка контактных линз в Казань</h2>
+                <ul class="delivery__list">
+                    <li class="delivery__item">
+                        <h3 class="delivery__topic delivery__topic--location-icon">До адреса</h3>
+                        <div class="delivery__content-wrapper">
+                            <p class="delivery__text">Заберите ваш заказ в одном из наших пунктов самовывоза</p>
+                            <ul class="delivery__inner-list">
+                                <li class="delivery__inner-item">
+                                    <a class="delivery__link" href="#">Адреса пунктов самовывоза</a>
+                                </li>
+                                <li class="delivery__inner-item">
+                                    <a class="delivery__link" href="#">Условия доставки</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="delivery__toggle-button" type="button" onclick="buttonAction(this);">
+                            <span class="visually-hidden">Показать/скрыть подробности</span>
+                        </button>
+                    </li>
+                    <li class="delivery__item">
+                        <h3 class="delivery__topic delivery__topic--package-icon">В пункт самовывоза</h3>
+                        <div class="delivery__content-wrapper delivery__content-wrapper--opened">
+                            <p class="delivery__text">Заберите ваш заказ в одном из наших пунктов самовывоза</p>
+                            <ul class="delivery__inner-list">
+                                <li class="delivery__inner-item">
+                                    <a class="delivery__link" href="#">Адреса пунктов самовывоза</a>
+                                </li>
+                                <li class="delivery__inner-item">
+                                    <a class="delivery__link" href="#">Условия доставки</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="delivery__toggle-button delivery__toggle-button--opened" type="button" onclick="buttonAction(this);">
+                            <span class="visually-hidden">Показать/скрыть подробности</span>
+                        </button>
+                    </li>
+                    <li class="delivery__item">
+                        <h3 class="delivery__topic delivery__topic--shipped-icon">До терминала ТК</h3>
+                        <div class="delivery__content-wrapper">
+                            <p class="delivery__text">Заберите ваш заказ в одном из наших пунктов самовывоза</p>
+                            <ul class="delivery__inner-list">
+                                <li class="delivery__inner-item">
+                                    <a class="delivery__link" href="#">Адреса пунктов самовывоза</a>
+                                </li>
+                                <li class="delivery__inner-item">
+                                    <a class="delivery__link" href="#">Условия доставки</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="delivery__toggle-button" type="button" onclick="buttonAction(this);">
+                            <span class="visually-hidden">Показать/скрыть подробности</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="info__description description">
+                <h2 class="description__heading">Описание</h2>
+                <p class="description__text">
+                    Новые контактные линзы от компании Alcon - Air Optix Night & Day пропускают в 6 раз больше кислорода к глазам, чем любые другие контактные линзы.  
+                </p>
+                <p class="description__text">
+                    Линзы изготовлены из современного материала силикон-гидрогеля лотрафилкон А, который доставляет необходимое количество кислорода к глазам. Вы можете оставаться в линзах AIR OPTIX Night & Day до 30 дней непрерывно, не снимая их даже ночью и чувствовать себя совершенно комфортно. 
+                </p>
+                <p class="description__text">
+                    Благодаря современному материалу белковые отложения в этих линзах сведены к минимуму, что позволяет обходиться без утомительной процедуры очистки на протяжении всего срока ношения линз.
+                </p>
+            </div>
+            <p class="info__warning">
+                ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ, НЕОБХОДИМО ПРОКОНСУЛЬТИРОВАТЬСЯ СО СПЕЦИАЛИСТОМ
+            </p>
+        </div>
     </main>
     <script src="js/like.min.js"></script>
     <script src="js/item-form.min.js"></script>
     <script src="js/catalog-popup.min.js"></script>
     <script src="js/recomend-toggle.min.js"></script>
+    <script src="js/delivery-toggle.min.js"></script>
+    <script src="js/info-toggle.min.js"></script>
 </body>
 </html>
