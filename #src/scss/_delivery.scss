@@ -1,0 +1,280 @@
+.delivery {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  @include smooth;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.delivery--opened {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.delivery__heading {
+  margin: 10px 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 450px) {
+    font-size: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.delivery__list {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  list-style: none;
+
+  @media screen and (min-width: 1024px) {
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+}
+
+.delivery__item {
+  position: relative;
+
+  box-sizing: border-box;
+  margin: 0 0 50px;
+  padding: 15px;
+  min-width: 300px;
+  width: 300px;
+
+  background: $blueMain;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+
+  @include smooth;
+
+  @media screen and (min-width: 1024px) {
+    width: 100%;
+  }
+}
+
+.delivery__topic {
+  position: relative;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 0 0 65px;
+
+  font-family: $geometria;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 50px;
+  color: #ffffff;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+    width: 50px;
+    height: 50px;
+
+    background-color: $trueWhite;
+    border-radius: 50%;
+  }
+
+  &--location-icon {
+    &::before {
+      background-image: url("../img/location-icon.svg");
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &--package-icon {
+    &::before {
+      background-image: url("../img/package-icon.svg");
+      background-position: 40% center;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &--shipped-icon {
+    &::before {
+      background-image: url("../img/shipped-icon.svg");
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    padding: 0 0 0 90px;
+
+    font-size: 18px;
+    line-height: 75px;
+
+    &::before {
+      width: 75px;
+      height: 75px;
+    }
+  }
+}
+
+.delivery__content-wrapper {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 0;
+
+  transform: scaleY(0);
+
+  @include smooth;
+
+  &--opened {
+    height: auto;
+    transform: scaleY(1);
+
+    @include smooth;
+  }
+}
+
+.delivery__text {
+  margin: 15px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 25px;
+  color: $trueWhite;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 15px;
+  }
+}
+
+.delivery__inner-list {
+  margin: 15px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  list-style: none;
+}
+
+.delivery__inner-item {
+  margin: 0 0 5px;
+  padding: 0;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.delivery__link {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: block;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 25px;
+  color: $trueWhite;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 15px;
+  }
+}
+
+.delivery__toggle-button {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 35px;
+  height: 35px;
+
+  background: none;
+  background-color: $trueWhite;
+  border: none;
+  border-radius: 50%;
+
+  transform: translateX(-17.5px);
+
+  cursor: pointer;
+
+  @include smooth;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 17px;
+    left: 15px;
+
+    display: block;
+    width: 5px;
+    height: 1px;
+
+    background-color: $blueMain;
+    border-radius: 1px;
+
+    @include smooth;
+  }
+
+  &::before {
+    left: 14px;
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    left: 17px;
+    transform: rotate(-45deg);
+  }
+
+  &--opened {
+    &::before {
+      transform: rotate(-45deg);
+    }
+
+    &::after {
+      transform: rotate(45deg);
+    }
+  }
+}
