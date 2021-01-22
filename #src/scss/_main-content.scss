@@ -290,3 +290,21 @@
     margin: 60px auto 0;
   }
 }
+
+.main-content__info {
+  margin: 25px auto 0;
+  padding: 0;
+  max-width: 1410px;
+
+  @media screen and (min-width: 425px) {
+    margin: 40px auto 0;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 70px auto 0;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 100px auto 0;
+  }
+}
