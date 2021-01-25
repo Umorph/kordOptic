@@ -308,3 +308,12 @@
     margin: 100px auto 0;
   }
 }
+
+.main-content__slider-promo {
+  margin: 0 auto;
+  padding: 0;
+  min-width: 320px;
+  max-width: 1410px;
+
+  @include outline(red);
+}
