@@ -35,4 +35,22 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 3000,
     });
+
+    $('.slider-promo__list').slick({
+        arrows:true,
+        dots: true,
+        adaptiveHeight: true,
+        slidesToShow: 1,
+        autoplay: false,
+        autoplaySpeed: 2500,
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                arrows: false,
+                dots: false
+              }
+            }
+        ],
+    });
 });
