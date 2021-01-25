@@ -5149,6 +5149,239 @@ input:focus {
   color: #3e425b;
 }
 
+.slider-promo {
+  margin: 0;
+  padding: 0;
+}
+
+.slider-promo__list {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slider-promo__list .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  font-size: 0;
+  background: none;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  -webkit-transform: translateY(-25px);
+      -ms-transform: translateY(-25px);
+          transform: translateY(-25px);
+  z-index: 5;
+  cursor: pointer;
+}
+
+.slider-promo__list .slick-arrow::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 20px;
+  height: 8px;
+  -webkit-transform: translate(-10px, -4px);
+      -ms-transform: translate(-10px, -4px);
+          transform: translate(-10px, -4px);
+  z-index: 10;
+}
+
+.slider-promo__list .slick-prev {
+  left: 0;
+  -webkit-transform: translate(-25px, -25px);
+      -ms-transform: translate(-25px, -25px);
+          transform: translate(-25px, -25px);
+}
+
+.slider-promo__list .slick-prev::before {
+  background-image: url("../img/arrow-prev.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slider-promo__list .slick-next {
+  right: 0;
+  -webkit-transform: translate(25px, -25px);
+      -ms-transform: translate(25px, -25px);
+          transform: translate(25px, -25px);
+}
+
+.slider-promo__list .slick-next::before {
+  background-image: url("../img/arrow-next.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slider-promo__item {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slider-promo__content {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(#4351D8), color-stop(44.06%, #4F60FF), to(#4351D8));
+  background: -o-linear-gradient(left, #4351D8 0%, #4F60FF 44.06%, #4351D8 100%);
+  background: linear-gradient(90deg, #4351D8 0%, #4F60FF 44.06%, #4351D8 100%);
+}
+
+.slider-promo__image {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.slider-promo__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slider-promo__text-wrapper {
+  margin: 0 0 0 20px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-shadow: inset 0 0 0 1px green;
+          box-shadow: inset 0 0 0 1px green;
+}
+
+.slider-promo__topic {
+  margin: 0;
+  padding: 0;
+  font-family: "Geometria", Helvetica, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.slider-promo__link {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 10px 0 0;
+  padding: 0 10px 0 0;
+  font-family: "Geometria", Helvetica, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 8px;
+  line-height: 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.slider-promo__link::before,
+.slider-promo__link::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: block;
+  width: 4px;
+  height: 1px;
+  background-color: #ffffff;
+  border-radius: 1px;
+}
+
+.slider-promo__link::before {
+  top: 40%;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.slider-promo__link::after {
+  top: 60%;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.slider-promo__list .slick-dots {
+  position: absolute;
+  bottom: 25px;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  list-style: none;
+}
+
+.slider-promo__list .slick-dots li {
+  margin: 0 10px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider-promo__list .slick-dots li:last-child {
+  margin-right: 0;
+}
+
+.slider-promo__list .slick-dots li button {
+  margin: 0;
+  padding: 0;
+  width: 10px;
+  height: 10px;
+  font-size: 0;
+  background: none;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-promo__list .slick-dots .slick-active button {
+  background: #4351D8;
+}
+
 .main-content {
   margin: 0;
   padding: 0 15px;
@@ -5321,6 +5554,15 @@ input:focus {
   margin: 25px auto 0;
   padding: 0;
   max-width: 1410px;
+}
+
+.main-content__slider-promo {
+  margin: 0 auto;
+  padding: 0;
+  min-width: 320px;
+  max-width: 1410px;
+  -webkit-box-shadow: inset 0 0 0 1px red;
+          box-shadow: inset 0 0 0 1px red;
 }
 
 .footer {
@@ -7097,6 +7339,28 @@ input:focus {
     margin: 50px 0 0;
     padding: 0 0 150px;
     font-size: 16px;
+  }
+
+  .slider-promo__image {
+    width: 400px;
+    height: 400px;
+  }
+
+  .slider-promo__topic {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .slider-promo__link {
+    margin: 50px 0 0;
+    padding: 0 20px 0 0;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .slider-promo__link::before,
+  .slider-promo__link::after {
+    width: 10px;
   }
 
   .main-content__description-wrapper {
