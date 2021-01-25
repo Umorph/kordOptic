@@ -114,8 +114,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-
-    @include outline(green);
 }
 
 .slider-promo__topic {
