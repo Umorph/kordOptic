@@ -462,16 +462,16 @@ input:focus {
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 28px;
   color: #ffffff;
   text-decoration: none;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(#4351D8), to(#6D7BFF));
-  background: -o-linear-gradient(left, #4351D8 0%, #6D7BFF 100%);
-  background: linear-gradient(90deg, #4351D8 0%, #6D7BFF 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#4351d8), to(#6d7bff));
+  background: -o-linear-gradient(left, #4351d8 0%, #6d7bff 100%);
+  background: linear-gradient(90deg, #4351d8 0%, #6d7bff 100%);
   border: none;
   border-radius: 80px;
   -webkit-transition: all 0.3s ease;
@@ -510,7 +510,7 @@ input:focus {
 .current-city__label {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -521,7 +521,7 @@ input:focus {
   position: relative;
   margin: 0 0 0 30px;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -575,7 +575,7 @@ input:focus {
 .hotline__label {
   margin: 0 8px 0 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -586,7 +586,7 @@ input:focus {
   position: relative;
   margin: 0;
   padding: 0 35px 0 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -644,7 +644,7 @@ input:focus {
 .site-navigation__link {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -659,7 +659,7 @@ input:focus {
 
 .site-navigation__link:active {
   text-decoration: none;
-  color: #114BB9;
+  color: #114bb9;
 }
 
 .inner-header__logo {
@@ -691,12 +691,12 @@ input:focus {
 .inner-header__logo-text {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #73778D;
+  color: #73778d;
   -webkit-transform: translateY(-10px);
       -ms-transform: translateY(-10px);
           transform: translateY(-10px);
@@ -727,7 +727,7 @@ input:focus {
   position: relative;
   margin: 0;
   padding: 0 0 0 20px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -742,7 +742,7 @@ input:focus {
 
 .catalog-navigation__link:hover,
 .catalog-navigation__link:focus {
-  color: #4351D8;
+  color: #4351d8;
 }
 
 .catalog-navigation__link::before,
@@ -797,7 +797,7 @@ input:focus {
 .catalog-navigation__drop-link {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -811,7 +811,7 @@ input:focus {
 
 .catalog-navigation__drop-link:hover,
 .catalog-navigation__drop-link:focus {
-  color: #4351D8;
+  color: #4351d8;
 }
 
 .catalog-navigation__item:hover .catalog-navigation__drop-list {
@@ -839,7 +839,7 @@ input:focus {
 .callback__phone-number {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
@@ -875,9 +875,9 @@ input:focus {
 }
 
 .header__top-wrapper {
-  background: -webkit-gradient(linear, left top, right top, from(#4351D8), to(#6D7BFF));
-  background: -o-linear-gradient(left, #4351D8 0%, #6D7BFF 100%);
-  background: linear-gradient(90deg, #4351D8 0%, #6D7BFF 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#4351d8), to(#6d7bff));
+  background: -o-linear-gradient(left, #4351d8 0%, #6d7bff 100%);
+  background: linear-gradient(90deg, #4351d8 0%, #6d7bff 100%);
   z-index: 150;
 }
 
@@ -966,7 +966,7 @@ input:focus {
   padding: 16px 48px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 28px;
@@ -1062,7 +1062,7 @@ input:focus {
 .header__modal-heading {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 53px;
@@ -1092,12 +1092,12 @@ input:focus {
   display: block;
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 28px;
   font-weight: 400;
   line-height: 56px;
   text-decoration: none;
-  color: #73778D;
+  color: #73778d;
 }
 
 .slick-slider {
@@ -1206,7 +1206,7 @@ input:focus {
 }
 
 .slider-offer .slick-dots li.slick-active button {
-  background-color: #4351D8;
+  background-color: #4351d8;
 }
 
 .slider-offer__inner-text {
@@ -1231,7 +1231,7 @@ input:focus {
 .slider-offer__inner-topic {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 34px;
@@ -1375,7 +1375,7 @@ input:focus {
   display: block;
   margin: 50px 0 0 35px;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 28px;
   font-weight: 400;
   line-height: 36px;
@@ -1386,7 +1386,7 @@ input:focus {
   display: block;
   margin: 8px 0 0 35px;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 53px;
@@ -1397,7 +1397,7 @@ input:focus {
   display: block;
   margin: 55px 0 30px 35px;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 64px;
   font-weight: 800;
   line-height: 70px;
@@ -1448,9 +1448,9 @@ input:focus {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   border-radius: 50%;
-  background: -webkit-gradient(linear, left top, right top, from(#4351D8), to(#6D7BFF));
-  background: -o-linear-gradient(left, #4351D8 0%, #6D7BFF 100%);
-  background: linear-gradient(90deg, #4351D8 0%, #6D7BFF 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#4351d8), to(#6d7bff));
+  background: -o-linear-gradient(left, #4351d8 0%, #6d7bff 100%);
+  background: linear-gradient(90deg, #4351d8 0%, #6d7bff 100%);
 }
 
 .services__image--eye::after {
@@ -1521,7 +1521,7 @@ input:focus {
   display: block;
   margin: 0 0 0 16px;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
@@ -1550,7 +1550,7 @@ input:focus {
 .about__heading {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 32px;
   font-weight: 500;
   line-height: 42px;
@@ -1578,32 +1578,32 @@ input:focus {
 .about__date {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 104px;
   font-weight: 700;
   line-height: 104px;
-  color: #4351D8;
+  color: #4351d8;
 }
 
 .about__paragraph {
   margin: 0;
   padding: 0;
   max-width: 440px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #4351D8;
+  color: #4351d8;
 }
 
 .about__topic {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 36px;
-  color: #4351D8;
+  color: #4351d8;
 }
 
 .stat {
@@ -1655,7 +1655,7 @@ input:focus {
   position: relative;
   margin: 0 0 0 44px;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 43px;
@@ -1670,9 +1670,9 @@ input:focus {
   display: block;
   width: 28px;
   height: 28px;
-  background: -webkit-gradient(linear, left top, right top, from(#4351D8), to(#6D7BFF));
-  background: -o-linear-gradient(left, #4351D8 0%, #6D7BFF 100%);
-  background: linear-gradient(90deg, #4351D8 0%, #6D7BFF 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#4351d8), to(#6d7bff));
+  background: -o-linear-gradient(left, #4351d8 0%, #6d7bff 100%);
+  background: linear-gradient(90deg, #4351d8 0%, #6d7bff 100%);
   border-radius: 50%;
 }
 
@@ -1680,7 +1680,7 @@ input:focus {
   display: block;
   margin: 8px 0 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -1738,7 +1738,7 @@ input:focus {
   width: 288px;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 36px;
@@ -1765,7 +1765,7 @@ input:focus {
 .history__text {
   margin: 16px 0 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -1815,18 +1815,18 @@ input:focus {
   position: relative;
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 28px;
   font-weight: 500;
   line-height: 36px;
-  color: #73778D;
+  color: #73778d;
   background: none;
   border: none;
   cursor: pointer;
 }
 
 .news__toggle-button--active {
-  color: #114BB9;
+  color: #114bb9;
 }
 
 .news__toggle-button--active::before {
@@ -1837,18 +1837,18 @@ input:focus {
   display: block;
   width: calc(100% + 10px);
   height: 3px;
-  background-color: #114BB9;
+  background-color: #114bb9;
 }
 
 .news__link {
   display: block;
   margin: 10px auto 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #114BB9;
+  color: #114bb9;
   text-decoration: none;
   text-align: center;
 }
@@ -1909,7 +1909,7 @@ input:focus {
 .news__item-topic {
   margin: 16px 0 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 34px;
@@ -1920,12 +1920,12 @@ input:focus {
 .news__item-description {
   margin: 16px 0 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
   text-align: left;
-  color: #73778D;
+  color: #73778d;
 }
 
 .news__item-link {
@@ -1960,7 +1960,7 @@ input:focus {
 .reviews__heading {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 32px;
   font-weight: 500;
   line-height: 42px;
@@ -1972,11 +1972,11 @@ input:focus {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #114BB9;
+  color: #114bb9;
   text-decoration: none;
 }
 
@@ -2027,9 +2027,9 @@ input:focus {
   position: relative;
   width: 93px;
   height: 93px;
-  background: -webkit-gradient(linear, left top, right top, from(#4351D8), to(#6D7BFF));
-  background: -o-linear-gradient(left, #4351D8 0%, #6D7BFF 100%);
-  background: linear-gradient(90deg, #4351D8 0%, #6D7BFF 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#4351d8), to(#6d7bff));
+  background: -o-linear-gradient(left, #4351d8 0%, #6d7bff 100%);
+  background: linear-gradient(90deg, #4351d8 0%, #6d7bff 100%);
   border-radius: 50%;
 }
 
@@ -2070,7 +2070,7 @@ input:focus {
 .reviews__name {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 36px;
@@ -2090,22 +2090,22 @@ input:focus {
 .reviews__source-name {
   margin: 10px 0 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
-  color: #73778D;
+  color: #73778d;
 }
 
 .reviews__source-href {
   display: block;
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #4351D8;
+  color: #4351d8;
   text-decoration: none;
 }
 
@@ -2113,11 +2113,11 @@ input:focus {
   display: block;
   margin: 20px 0 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
-  color: #73778D;
+  color: #73778d;
 }
 
 .reviews__link-full {
@@ -2148,7 +2148,7 @@ input:focus {
 .slider-inst__header {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 32px;
   font-weight: 500;
   line-height: 42px;
@@ -2160,10 +2160,10 @@ input:focus {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #114BB9;
+  color: #114bb9;
   text-decoration: none;
 }
 
@@ -2255,7 +2255,7 @@ input:focus {
   display: block;
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
@@ -2273,7 +2273,7 @@ input:focus {
 .news-layout__heading {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 20px;
@@ -2330,14 +2330,14 @@ input:focus {
           box-sizing: border-box;
   margin: 0;
   padding: 5px 17px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
   line-height: 35px;
   letter-spacing: 0.05em;
   color: #ffffff;
-  background-color: #4351D8;
+  background-color: #4351d8;
   border-bottom-right-radius: 25px;
 }
 
@@ -2360,7 +2360,7 @@ input:focus {
   margin: 15px 10px 0;
   padding: 0;
   width: 280px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 24px;
@@ -2371,7 +2371,7 @@ input:focus {
 .news-layout__paragraph {
   margin: 15px 10px 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
@@ -2385,13 +2385,13 @@ input:focus {
           box-sizing: border-box;
   margin: 20px 0 0 10px;
   padding: 0 25px 0 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
   line-height: 35px;
   text-decoration: none;
-  color: #4351D8;
+  color: #4351d8;
   cursor: pointer;
 }
 
@@ -2404,7 +2404,7 @@ input:focus {
   display: block;
   width: 8px;
   height: 1px;
-  background-color: #4351D8;
+  background-color: #4351d8;
   border-radius: 3px;
 }
 
@@ -2457,7 +2457,7 @@ input:focus {
   padding: 0;
   width: 25px;
   height: 25px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
@@ -2476,8 +2476,8 @@ input:focus {
 .pagination__link:hover,
 .pagination__link:focus {
   color: #ffffff;
-  border-color: #4351D8;
-  background-color: #4351D8;
+  border-color: #4351d8;
+  background-color: #4351d8;
 }
 
 .pagination__link--prev,
@@ -2515,7 +2515,7 @@ input:focus {
 .pagination__link--current {
   color: #ffffff;
   border: none;
-  background-color: #4351D8;
+  background-color: #4351d8;
 }
 
 .lens-type {
@@ -2569,17 +2569,17 @@ input:focus {
   margin: 0;
   padding: 3px 0;
   width: 100%;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 12px;
   line-height: 24px;
   text-align: center;
   text-decoration: none;
-  color: #4351D8;
+  color: #4351d8;
   background: none;
   background-color: #ffffff;
-  border: 1px solid #4351D8;
+  border: 1px solid #4351d8;
   border-radius: 25px;
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
@@ -2590,12 +2590,12 @@ input:focus {
 .lens-type__type-button:hover,
 .lens-type__type-button:focus {
   color: #ffffff;
-  background-color: #4351D8;
+  background-color: #4351d8;
 }
 
 .lens-type__type-button--active {
   color: #ffffff;
-  background-color: #4351D8;
+  background-color: #4351d8;
 }
 
 .lens-type__toggle-button {
@@ -2606,7 +2606,7 @@ input:focus {
   margin: 15px 0 0;
   padding: 3px 0;
   width: 100%;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 12px;
@@ -2615,8 +2615,8 @@ input:focus {
   text-decoration: none;
   color: #ffffff;
   background: none;
-  background-color: #4351D8;
-  border: 1px solid #4351D8;
+  background-color: #4351d8;
+  border: 1px solid #4351d8;
   border-radius: 25px;
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
@@ -2678,12 +2678,12 @@ input:focus {
   display: block;
   margin: 0;
   padding: 0 20px 0 25px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 12px;
   line-height: 25px;
-  color: #4351D8;
+  color: #4351d8;
   background: none;
   background-image: url("../img/funnel-icon.svg");
   background-position: 2px 3px;
@@ -2701,7 +2701,7 @@ input:focus {
   display: block;
   width: 5px;
   height: 1px;
-  background-color: #4351D8;
+  background-color: #4351d8;
   border-radius: 3px;
 }
 
@@ -2744,12 +2744,12 @@ input:focus {
   display: block;
   margin: 20px 0 0;
   padding: 0 0 0 20px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 12px;
   line-height: 25px;
-  color: #4351D8;
+  color: #4351d8;
   background: none;
   border: none;
   cursor: pointer;
@@ -2764,7 +2764,7 @@ input:focus {
   display: block;
   width: 7px;
   height: 3px;
-  background-color: #4351D8;
+  background-color: #4351d8;
   border-radius: 7px;
 }
 
@@ -2806,12 +2806,12 @@ input:focus {
   margin: 0;
   padding: 0 0 0 30px;
   min-height: 20px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
   line-height: 24px;
-  color: #4351D8;
+  color: #4351d8;
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -2857,12 +2857,12 @@ input:focus {
   display: none;
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
-  color: #4351D8;
+  color: #4351d8;
 }
 
 .search-filter__hide-button--opened ~ .search-filter__form {
@@ -2877,7 +2877,7 @@ input:focus {
 .catalog-layout__heading {
   margin: 0 0 25px;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 15px;
@@ -2956,7 +2956,7 @@ input:focus {
   display: block;
   margin: 10px 0 0 10px;
   padding: 0 0 0 25px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
@@ -3003,14 +3003,14 @@ input:focus {
   display: block;
   margin: 10px 0 0 64px;
   padding: 0 5px 0 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 12px;
   line-height: 24px;
   text-align: center;
   color: #ffffff;
-  background-color: #4351D8;
+  background-color: #4351d8;
 }
 
 .catalog-layout__bestseller::before {
@@ -3020,7 +3020,7 @@ input:focus {
   top: 0;
   width: 0;
   height: 0;
-  border-color: transparent #4351D8 transparent transparent;
+  border-color: transparent #4351d8 transparent transparent;
   border-style: solid;
   border-width: 12px 20px 12px 20px;
 }
@@ -3039,7 +3039,7 @@ input:focus {
 .catalog-layout__topic {
   margin: 5px 10px 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 12px;
@@ -3064,7 +3064,7 @@ input:focus {
 .catalog-layout__parameter-name {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
@@ -3075,7 +3075,7 @@ input:focus {
 .catalog-layout__parameter-value {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
@@ -3107,7 +3107,7 @@ input:focus {
   display: block;
   margin: 0 10px 0 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 16px;
@@ -3125,7 +3125,7 @@ input:focus {
   display: block;
   width: 100%;
   height: 2px;
-  background-color: #4351D8;
+  background-color: #4351d8;
   border-radius: 2px;
 }
 
@@ -3135,7 +3135,7 @@ input:focus {
   display: block;
   margin: 10px 0 10px;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 20px;
@@ -3156,13 +3156,13 @@ input:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 12px;
   line-height: 20px;
   color: #ffffff;
-  background-color: #4351D8;
+  background-color: #4351d8;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -3184,7 +3184,7 @@ input:focus {
       -ms-flex-align: center;
           align-items: center;
   background: none;
-  border: 1px solid #4351D8;
+  border: 1px solid #4351d8;
   border-radius: 50%;
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
@@ -3194,7 +3194,7 @@ input:focus {
 
 .catalog-layout__popup-button:hover,
 .catalog-layout__popup-button:focus {
-  background-color: #4351D8;
+  background-color: #4351d8;
 }
 
 .catalog-layout__popup-button svg {
@@ -3254,13 +3254,13 @@ input:focus {
   margin: 0;
   padding: 0 0 0 50px;
   min-height: 25px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
-  color: #4351D8;
+  color: #4351d8;
 }
 
 .catalog-layout__popup-link::before {
@@ -3304,7 +3304,7 @@ input:focus {
           box-sizing: border-box;
   margin: 15px 0 0 15px;
   padding: 0 0 0 25px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
@@ -3362,12 +3362,12 @@ input:focus {
   margin: 25px auto 0;
   padding: 0 10px 0 0;
   display: block;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  color: #4351D8;
+  color: #4351d8;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -3382,7 +3382,7 @@ input:focus {
   display: block;
   width: 5px;
   height: 1px;
-  background-color: #4351D8;
+  background-color: #4351d8;
   border-radius: 1px;
 }
 
@@ -3430,7 +3430,7 @@ input:focus {
 .catalog__heading {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 20px;
@@ -3467,7 +3467,7 @@ input:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #4351D8;
+  background-color: #4351d8;
 }
 
 .promo-layout__wide-image {
@@ -3500,7 +3500,7 @@ input:focus {
 .promo-layout__wide-heading {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 18px;
@@ -3514,7 +3514,7 @@ input:focus {
           box-sizing: border-box;
   margin: 10px 0 0;
   padding: 0 15px 0 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 12px;
@@ -3601,7 +3601,7 @@ input:focus {
 .promo-layout__heading {
   margin: 50% 0 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 14px;
@@ -3616,7 +3616,7 @@ input:focus {
   margin: 10px 0 0;
   padding: 0 15px 0 0;
   display: block;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 12px;
@@ -3672,7 +3672,7 @@ input:focus {
 .promo__heading {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 20px;
@@ -3722,15 +3722,15 @@ input:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 11px;
   line-height: 24px;
   text-decoration: none;
-  color: #4351D8;
+  color: #4351d8;
   background: none;
-  border: 1px solid #4351D8;
+  border: 1px solid #4351d8;
   border-radius: 25px;
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
@@ -3740,13 +3740,13 @@ input:focus {
 
 .promo__filter-button--active {
   color: #ffffff;
-  background-color: #4351D8;
+  background-color: #4351d8;
 }
 
 .promo__filter-button:hover,
 .promo__filter-button:focus {
   color: #ffffff;
-  background-color: #4351D8;
+  background-color: #4351d8;
 }
 
 .promo__content-list {
@@ -3780,7 +3780,7 @@ input:focus {
           box-sizing: border-box;
   margin: 0;
   padding: 0 0 0 25px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
@@ -3877,12 +3877,12 @@ input:focus {
 }
 
 .item-preview__minified-item--current {
-  border-color: #4351D8;
+  border-color: #4351d8;
 }
 
 .item-preview__minified-item:hover,
 .item-preview__minified-item:focus {
-  border-color: #4351D8;
+  border-color: #4351d8;
 }
 
 .item-preview__minified-image {
@@ -3907,7 +3907,7 @@ input:focus {
 .item-parameters__heading {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 15px;
@@ -3947,7 +3947,7 @@ input:focus {
 .item-parameters__param-topic {
   margin: 10px 0 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
@@ -3985,14 +3985,14 @@ input:focus {
           align-items: center;
   min-width: 148px;
   min-height: 30px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
   line-height: 24px;
-  color: #4351D8;
+  color: #4351d8;
   background: none;
-  border: 1px solid #4351D8;
+  border: 1px solid #4351d8;
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -4011,14 +4011,14 @@ input:focus {
 
 .item-parameters__toggle-button--active {
   color: #ffffff;
-  background-color: #4351D8;
+  background-color: #4351d8;
   pointer-events: none;
 }
 
 .item-parameters__toggle-button:hover,
 .item-parameters__toggle-button:focus {
   color: #ffffff;
-  background-color: #4351D8;
+  background-color: #4351d8;
 }
 
 .item-parameters__input-wrapper {
@@ -4076,7 +4076,7 @@ input:focus {
   padding: 0;
   display: block;
   width: 100%;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
@@ -4091,7 +4091,7 @@ input:focus {
   margin: 0;
   padding: 0 60px 0 10px;
   width: 100%;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
@@ -4111,7 +4111,7 @@ input:focus {
 
 .item-parameters__select:hover,
 .item-parameters__select:focus {
-  border-color: #4351D8;
+  border-color: #4351d8;
 }
 
 .item-parameters__option {
@@ -4165,15 +4165,15 @@ input:focus {
           align-items: center;
   min-width: 35px;
   min-height: 35px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 12px;
   line-height: 24px;
-  color: #4351D8;
+  color: #4351d8;
   background: none;
   background-color: #ffffff;
-  border: 1px solid #4351D8;
+  border: 1px solid #4351d8;
   border-radius: 5px;
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
@@ -4184,7 +4184,7 @@ input:focus {
 .item-parameters__count-button:hover,
 .item-parameters__count-button:focus {
   color: #ffffff;
-  background-color: #4351D8;
+  background-color: #4351d8;
 }
 
 .item-parameters__lens-count-input {
@@ -4203,7 +4203,7 @@ input:focus {
           align-items: center;
   width: 35px;
   height: 35px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 15px;
@@ -4263,7 +4263,7 @@ input:focus {
   margin: 0;
   padding: 0 60px 0 10px;
   width: 100%;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
@@ -4283,13 +4283,13 @@ input:focus {
 
 .item-parameters__delivery-select:hover,
 .item-parameters__delivery-select:focus {
-  border-color: #4351D8;
+  border-color: #4351d8;
 }
 
 .item-parameters__delivery-time {
   margin: 0 0 0 10px;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
@@ -4332,12 +4332,12 @@ input:focus {
 .item-parameters__side-link {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 12px;
   line-height: 24px;
-  color: #4351D8;
+  color: #4351d8;
 }
 
 .item-parameters__gift {
@@ -4347,7 +4347,7 @@ input:focus {
   margin: 25px 0 0;
   padding: 0 0 0 60px;
   display: block;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 12px;
@@ -4383,7 +4383,7 @@ input:focus {
 .item-parameters__price-value {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 35px;
@@ -4408,14 +4408,14 @@ input:focus {
   width: 100%;
   min-height: 35px;
   max-width: 210px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 12px;
   line-height: 24px;
   color: #ffffff;
   background: none;
-  background-color: #4351D8;
+  background-color: #4351d8;
   border: none;
   border-radius: 50px;
   -webkit-box-shadow: 0 5px 25px rgba(62, 66, 91, 0.25);
@@ -4429,12 +4429,12 @@ input:focus {
   margin: 0;
   padding: 0;
   display: block;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 12px;
   line-height: 24px;
-  color: #4351D8;
+  color: #4351d8;
 }
 
 .item-parameters__subscribe-button {
@@ -4454,12 +4454,12 @@ input:focus {
   width: 100%;
   min-height: 35px;
   max-width: 210px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 12px;
   line-height: 24px;
-  color: #4351D8;
+  color: #4351d8;
   background: none;
   border: 1px solid #4351d8;
   border-radius: 50px;
@@ -4474,7 +4474,7 @@ input:focus {
 .item-parameters__subscribe-button:hover,
 .item-parameters__subscribe-button:focus {
   color: #ffffff;
-  background-color: #4351D8;
+  background-color: #4351d8;
 }
 
 .item-documentation {
@@ -4512,12 +4512,12 @@ input:focus {
   padding: 0 0 0 40px;
   display: block;
   min-height: 25px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 12px;
   line-height: 24px;
-  color: #4351D8;
+  color: #4351d8;
 }
 
 .item-documentation__link::before {
@@ -4572,12 +4572,12 @@ input:focus {
   margin: 0;
   padding: 0;
   display: block;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 12px;
   line-height: 25px;
-  color: #4351D8;
+  color: #4351d8;
 }
 
 .item-page {
@@ -4638,7 +4638,7 @@ input:focus {
           align-items: center;
   width: 100%;
   min-height: 100px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 35px;
@@ -4660,7 +4660,7 @@ input:focus {
   display: block;
   width: 100%;
   height: 3px;
-  background-color: #4351D8;
+  background-color: #4351d8;
   -webkit-transform: scaleX(0);
       -ms-transform: scaleX(0);
           transform: scaleX(0);
@@ -4670,7 +4670,7 @@ input:focus {
 }
 
 .toggle__button--opened {
-  color: #4351D8;
+  color: #4351d8;
   pointer-events: none;
 }
 
@@ -4682,7 +4682,7 @@ input:focus {
 
 .toggle__button:hover,
 .toggle__button:focus {
-  color: #4351D8;
+  color: #4351d8;
 }
 
 .toggle__button:hover::after,
@@ -4716,7 +4716,7 @@ input:focus {
 .specification__heading {
   margin: 10px 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 15px;
@@ -4773,7 +4773,7 @@ input:focus {
 .specification__name {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 10px;
@@ -4784,7 +4784,7 @@ input:focus {
 .specification__value {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 10px;
@@ -4816,7 +4816,7 @@ input:focus {
 .delivery__heading {
   margin: 10px 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 15px;
@@ -4852,7 +4852,7 @@ input:focus {
   padding: 15px;
   min-width: 300px;
   width: 300px;
-  background: #4351D8;
+  background: #4351d8;
   -webkit-box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
           box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
@@ -4867,7 +4867,7 @@ input:focus {
           box-sizing: border-box;
   margin: 0;
   padding: 0 0 0 65px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 15px;
@@ -4943,7 +4943,7 @@ input:focus {
 .delivery__text {
   margin: 15px 0 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 12px;
@@ -4985,7 +4985,7 @@ input:focus {
   margin: 0;
   padding: 0;
   display: block;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 12px;
@@ -5025,7 +5025,7 @@ input:focus {
   display: block;
   width: 5px;
   height: 1px;
-  background-color: #4351D8;
+  background-color: #4351d8;
   border-radius: 1px;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -5082,7 +5082,7 @@ input:focus {
 .description__heading {
   margin: 10px 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 15px;
@@ -5093,7 +5093,7 @@ input:focus {
 .description__text {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 12px;
@@ -5132,7 +5132,7 @@ input:focus {
 .info__warning {
   margin: 25px 0 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
@@ -5274,7 +5274,7 @@ input:focus {
 .slider-promo__topic {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 18px;
@@ -5288,7 +5288,7 @@ input:focus {
           box-sizing: border-box;
   margin: 10px 0 0;
   padding: 0 10px 0 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 8px;
@@ -5370,7 +5370,7 @@ input:focus {
 }
 
 .slider-promo__list .slick-dots .slick-active button {
-  background: #4351D8;
+  background: #4351d8;
 }
 
 .products {
@@ -5394,7 +5394,7 @@ input:focus {
 .products__heading {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 18px;
@@ -5433,13 +5433,13 @@ input:focus {
           box-sizing: border-box;
   margin: 0;
   padding: 80px 0 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 22px;
   line-height: 25px;
   text-align: center;
-  color: #4351D8;
+  color: #4351d8;
 }
 
 .products__topic::before {
@@ -5507,7 +5507,7 @@ input:focus {
 .products__link {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 14px;
@@ -5538,7 +5538,7 @@ input:focus {
 .catalog-reviews__heading {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 18px;
@@ -5584,19 +5584,19 @@ input:focus {
 .catalog-reviews__user-name {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 20px;
   line-height: 25px;
   letter-spacing: 0.05em;
-  color: #4351D8;
+  color: #4351d8;
 }
 
 .catalog-reviews__text {
   margin: 5px 0 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 14px;
@@ -5621,15 +5621,15 @@ input:focus {
   margin: 15px 0 0;
   padding: 0;
   width: 100%;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 16px;
   line-height: 35px;
   letter-spacing: 0.05em;
-  color: #4351D8;
+  color: #4351d8;
   text-decoration: none;
-  border: 1px solid #4351D8;
+  border: 1px solid #4351d8;
   border-radius: 50px;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -5639,7 +5639,7 @@ input:focus {
 .catalog-reviews__link:hover,
 .catalog-reviews__link:focus {
   color: #ffffff;
-  background-color: #4351D8;
+  background-color: #4351d8;
 }
 
 .catalog-reviews__more-link {
@@ -5651,12 +5651,12 @@ input:focus {
   display: block;
   margin: 40px 0 0;
   padding: 0 20px 0 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
   line-height: 18px;
-  color: #4351D8;
+  color: #4351d8;
   text-decoration: none;
 }
 
@@ -5669,7 +5669,7 @@ input:focus {
   display: block;
   width: 5px;
   height: 1px;
-  background-color: #4351D8;
+  background-color: #4351d8;
   border-radius: 1px;
 }
 
@@ -5762,7 +5762,7 @@ input:focus {
 
 .main-content__description {
   height: 215px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 16px;
@@ -5781,13 +5781,13 @@ input:focus {
           box-sizing: border-box;
   margin: 10px 0 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
   line-height: 18px;
   text-decoration: none;
-  color: #4351D8;
+  color: #4351d8;
   background: none;
   border: none;
   cursor: pointer;
@@ -5802,7 +5802,7 @@ input:focus {
   margin: 0 auto 25px;
   padding: 0;
   max-width: 1410px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
@@ -5822,7 +5822,7 @@ input:focus {
   margin: 20px auto;
   padding: 0;
   max-width: 1410px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 10px;
@@ -5835,7 +5835,7 @@ input:focus {
   margin: 10px auto 0;
   padding: 0;
   max-width: 1410px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 20px;
@@ -5947,7 +5947,7 @@ input:focus {
 .footer__about-heading {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 28px;
@@ -5969,13 +5969,13 @@ input:focus {
   display: block;
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: center;
   text-decoration: none;
-  color: #73778D;
+  color: #73778d;
 }
 
 .footer__catalog {
@@ -6000,7 +6000,7 @@ input:focus {
 .footer__catalog-heading {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 28px;
@@ -6022,13 +6022,13 @@ input:focus {
   display: block;
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: center;
   text-decoration: none;
-  color: #73778D;
+  color: #73778d;
 }
 
 .footer__shop {
@@ -6053,7 +6053,7 @@ input:focus {
 .footer__shop-heading {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 28px;
@@ -6075,13 +6075,13 @@ input:focus {
   display: block;
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: center;
   text-decoration: none;
-  color: #73778D;
+  color: #73778d;
 }
 
 .footer__nav {
@@ -6117,7 +6117,7 @@ input:focus {
   display: block;
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 28px;
@@ -6148,7 +6148,7 @@ input:focus {
 .footer__info-phone {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 32px;
   font-weight: 400;
   line-height: 42px;
@@ -6159,13 +6159,13 @@ input:focus {
 .footer__info-email {
   margin: 10px 0 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 21px;
   letter-spacing: 0;
   text-align: center;
-  color: #114BB9;
+  color: #114bb9;
   text-decoration: none;
 }
 
@@ -6248,7 +6248,7 @@ input:focus {
 .footer__copyright-text {
   margin: 30px 0 20px;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
@@ -6341,7 +6341,7 @@ input:focus {
   padding: 10px 15px 10px 30px;
   background: none;
   border: none;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 16px;
@@ -6411,7 +6411,7 @@ input:focus {
           box-sizing: border-box;
   margin: 20px auto 30px;
   padding: 10px 20px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 16px;
@@ -6483,7 +6483,7 @@ input:focus {
   display: block;
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 19px;
@@ -6585,7 +6585,7 @@ input:focus {
   display: block;
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 19px;
@@ -6600,7 +6600,7 @@ input:focus {
           box-sizing: border-box;
   margin: 10px 0;
   padding: 10px 0 10px 30px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 19px;
@@ -6655,7 +6655,7 @@ input:focus {
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 19px;
@@ -6666,7 +6666,7 @@ input:focus {
 .modal-menu__label {
   margin: 30px auto 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 15px;
@@ -6676,7 +6676,7 @@ input:focus {
 .modal-menu__phone-number {
   margin: 15px auto 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 15px;
   font-weight: 700;
   line-height: 19px;
@@ -6742,9 +6742,9 @@ input:focus {
       -ms-flex-align: start;
           align-items: flex-start;
   width: 360px;
-  background: -webkit-gradient(linear, left top, right top, from(#4351D8), to(#6D7BFF));
-  background: -o-linear-gradient(left, #4351D8 0%, #6D7BFF 100%);
-  background: linear-gradient(90deg, #4351D8 0%, #6D7BFF 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#4351d8), to(#6d7bff));
+  background: -o-linear-gradient(left, #4351d8 0%, #6d7bff 100%);
+  background: linear-gradient(90deg, #4351d8 0%, #6d7bff 100%);
   border-radius: 20px;
   z-index: 200;
   -webkit-transform: translate(-180px, -200%);
@@ -6799,7 +6799,7 @@ input:focus {
 .modal-store__heading {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 34px;
@@ -6812,7 +6812,7 @@ input:focus {
           box-sizing: border-box;
   margin: 10px 0 0;
   padding: 0 0 0 32px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -6844,7 +6844,7 @@ input:focus {
 .modal-store__phone {
   margin: 25px 0 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 32px;
   font-weight: 400;
   line-height: 42px;
@@ -6873,7 +6873,7 @@ input:focus {
 .modal-store__label {
   margin: 0;
   padding: 0;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -6887,7 +6887,7 @@ input:focus {
   margin: 5px 0 10px;
   padding: 5px 14px;
   width: 100%;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -6910,7 +6910,7 @@ input:focus {
   margin: 10px 0 0;
   padding: 16px 14px;
   width: 100%;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -6931,7 +6931,7 @@ input:focus {
           box-sizing: border-box;
   margin: 10px 0 0;
   padding: 16px 41px;
-  font-family: "Geometria", Helvetica, sans-serif;
+  font-family: "Geometria", "helvetica", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 28px;
@@ -8311,14 +8311,14 @@ input:focus {
 
   .catalog-reviews__more-link {
     padding: 7px 130px 7px 100px;
-    font-family: "Geometria", Helvetica, sans-serif;
+    font-family: "Geometria", "helvetica", sans-serif;
     font-weight: bold;
     font-style: normal;
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.05em;
     color: #ffffff;
-    background: #4351D8;
+    background: #4351d8;
     border-radius: 25px;
   }
 
