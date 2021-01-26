@@ -2888,6 +2888,13 @@ input:focus {
   color: #3e425b;
 }
 
+.catalog-layout__heading--wide-letters {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+}
+
 .catalog-layout__list {
   margin: 0;
   padding: 0;
