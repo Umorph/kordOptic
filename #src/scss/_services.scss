@@ -1,133 +1,133 @@
 .services {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    max-width: 1410px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 1410px;
 }
 
 .services__item {
-    margin-right: auto;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-grow: 1;
-    width: 288px;
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  width: 288px;
 
-    &:not(:last-child) {
-        margin-bottom: 16px;
-    }
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
 }
 
 .services__image {
-    position: relative;
+  position: relative;
 
-    width: 56px;
-    height: 56px;
+  width: 56px;
+  height: 56px;
 
-    flex-shrink: 0;
+  flex-shrink: 0;
 
-    border-radius: 50%;
+  border-radius: 50%;
 
-    background: $kord-gradient;
+  background: $kord-gradient;
 
-    &--eye {
-        &::after {
-            content: "";
-            position: absolute;
-            top: 50%;
-            left: 50%;
+  &--eye {
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
 
-            display: block;
-            width: 33px;
-            height: 32px;
+      display: block;
+      width: 33px;
+      height: 32px;
 
-            background-image: url("../img/eye-icon.svg");
-            background-position: center;
-            background-repeat: no-repeat;
+      background-image: url("../img/eye-icon.svg");
+      background-position: center;
+      background-repeat: no-repeat;
 
-            transform: translate(-16px, -16px);
-        }
+      transform: translate(-16px, -16px);
     }
+  }
 
-    &--man {
-        &::after {
-            content: "";
-            position: absolute;
-            top: 50%;
-            left: 50%;
+  &--man {
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
 
-            display: block;
-            width: 32px;
-            height: 32px;
+      display: block;
+      width: 32px;
+      height: 32px;
 
-            background-image: url("../img/man-icon.svg");
-            background-position: center;
-            background-repeat: no-repeat;
+      background-image: url("../img/man-icon.svg");
+      background-position: center;
+      background-repeat: no-repeat;
 
-            transform: translate(-20px, -16px);
-        }
+      transform: translate(-20px, -16px);
     }
+  }
 
-    &--glass {
-        &::after {
-            content: "";
-            position: absolute;
-            top: 50%;
-            left: 50%;
+  &--glass {
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
 
-            display: block;
-            width: 40px;
-            height: 14px;
+      display: block;
+      width: 40px;
+      height: 14px;
 
-            background-image: url("../img/glass-icon.svg");
-            background-position: center;
-            background-repeat: no-repeat;
+      background-image: url("../img/glass-icon.svg");
+      background-position: center;
+      background-repeat: no-repeat;
 
-            transform: translate(-20px, -8px);
-        }
+      transform: translate(-20px, -8px);
     }
+  }
 
-    &--rings {
-        &::after {
-            content: "";
-            position: absolute;
-            top: 50%;
-            left: 50%;
+  &--rings {
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
 
-            display: block;
-            width: 30px;
-            height: 30px;
+      display: block;
+      width: 30px;
+      height: 30px;
 
-            background-image: url("../img/rings-icon.svg");
-            background-position: center;
-            background-repeat: no-repeat;
+      background-image: url("../img/rings-icon.svg");
+      background-position: center;
+      background-repeat: no-repeat;
 
-            transform: translate(-15px, -15px);
-        }
+      transform: translate(-15px, -15px);
     }
+  }
 
-    @media (min-width: 768px) {
-        width: 83px;
-        height: 83px;
-    }
+  @media (min-width: 768px) {
+    width: 83px;
+    height: 83px;
+  }
 }
 
 .services__offer {
-    display: block;
-    margin: 0 0 0 16px;
-    padding: 0;
+  display: block;
+  margin: 0 0 0 16px;
+  padding: 0;
 
-    font-family: $geometria;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    color: $greyBlueDark;
+  font-family: $geometria;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: $greyBlueDark;
 
-    @media (min-width: 768px) {
-        font-size: 16px;
-        line-height: 24px;
-    }
+  @media (min-width: 768px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }

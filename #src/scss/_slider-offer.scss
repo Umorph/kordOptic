@@ -1,189 +1,189 @@
 .slider-offer {
-    position: relative;
+  position: relative;
 
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    max-width: 1410px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 1410px;
 
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .slider-offer__item {
-    position: relative;
+  position: relative;
 }
 
 .slider-offer .slick-arrow {
+  position: absolute;
+  top: 50%;
+
+  width: 50px;
+  height: 50px;
+
+  font-size: 0;
+
+  background: none;
+  background-color: $trueWhite;
+  border: none;
+  border-radius: 50%;
+
+  transform: translateY(-25px);
+
+  cursor: pointer;
+  z-index: 10;
+
+  @media (max-width: 768px) {
     position: absolute;
-    top: 50%;
 
-    width: 50px;
-    height: 50px;
+    display: none;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
 
-    font-size: 0;
+    white-space: nowrap;
 
-    background: none;
-    background-color: $trueWhite;
-    border: none;
-    border-radius: 50%;
-
-    transform: translateY(-25px);
-
-    cursor: pointer;
-    z-index: 10;
-
-    @media (max-width: 768px) {
-        position: absolute;
-        
-        display: none;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-
-        white-space: nowrap;
-
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-    }
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 }
 
 .slider-offer .slick-arrow.slick-prev {
-    left: -25px;
+  left: -25px;
 
-    background-image: url("../img/arrow-prev.svg");
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../img/arrow-prev.svg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .slider-offer .slick-arrow.slick-next {
-    right: -25px;
+  right: -25px;
 
-    background-image: url("../img/arrow-next.svg");
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../img/arrow-next.svg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .slider-offer .slick-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transform: translateX(-25px);
+
+  @media (max-width: 768px) {
     position: absolute;
-    bottom: 20px;
-    left: 50%;
 
-    margin: 0;
+    display: none;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    transform: translateX(-25px);
+    white-space: nowrap;
 
-    @media (max-width: 768px) {
-        position: absolute;
-        
-        display: none;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-
-        white-space: nowrap;
-
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-    }
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 }
 
 .slider-offer .slick-dots li {
-    margin: 0 10px;
+  margin: 0 10px;
 
-    list-style: none;
+  list-style: none;
 }
 
 .slider-offer .slick-dots button {
-    margin: 0;
-    padding: 4px;
-    
-    font-size: 0;
+  margin: 0;
+  padding: 4px;
 
-    background: none;
-    background-color: $trueWhite;
-    border: none;
-    border-radius: 50%;
+  font-size: 0;
 
-    cursor: pointer;
+  background: none;
+  background-color: $trueWhite;
+  border: none;
+  border-radius: 50%;
+
+  cursor: pointer;
 }
 
-.slider-offer .slick-dots li.slick-active button{
-    background-color: $blueMain;
+.slider-offer .slick-dots li.slick-active button {
+  background-color: $blueMain;
 }
 
 .slider-offer__image {
-    @media (max-width: 768px) {
-        height: 310px;
-    }
+  @media (max-width: 768px) {
+    height: 310px;
+  }
 
-    @media (max-width: 425px) {
-        height: 288px;
-    }
+  @media (max-width: 425px) {
+    height: 288px;
+  }
 }
 
 .slider-offer__inner-text {
-    position: absolute;
-    top: 30px;
-    left: 15px;
+  position: absolute;
+  top: 30px;
+  left: 15px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 
-    @media (min-width: 768px) {
-        top: 98px;
-        left: 95px;
-    }
+  @media (min-width: 768px) {
+    top: 98px;
+    left: 95px;
+  }
 }
 
 .slider-offer__inner-topic {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
-    font-family: $geometria;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 34px;
-    color: $trueWhite;
+  font-family: $geometria;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  color: $trueWhite;
 
-    @media (min-width: 425px) {
-        font-size: 38px;
-        line-height: 43px;
-    }
+  @media (min-width: 425px) {
+    font-size: 38px;
+    line-height: 43px;
+  }
 
-    @media (min-width: 768px) {
-        font-size: 48px;
-        line-height: 53px;
-    }
+  @media (min-width: 768px) {
+    font-size: 48px;
+    line-height: 53px;
+  }
 }
 
 .slider-offer__inner-link {
-    margin-top: 25px;
-    padding: 4px 32px;
+  margin-top: 25px;
+  padding: 4px 32px;
 
-    font-size: 16px;
-    line-height: 24px;
+  font-size: 16px;
+  line-height: 24px;
 
-    @media (min-width: 425px) {
-        margin-top: 45px;
-    }
+  @media (min-width: 425px) {
+    margin-top: 45px;
+  }
 
-    @media (min-width: 768px) {
-        margin-top: 105px;
-        padding: 16px 32px;
+  @media (min-width: 768px) {
+    margin-top: 105px;
+    padding: 16px 32px;
 
-        font-size: 20px;
-        line-height: 28px;
-    }
+    font-size: 20px;
+    line-height: 28px;
+  }
 }

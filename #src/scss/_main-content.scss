@@ -45,6 +45,7 @@
 
 .main-content__history {
   margin: 0 auto;
+
   @media (min-width: 768px) {
     margin-top: 32px;
   }
@@ -52,6 +53,7 @@
 
 .main-content__news {
   margin: 32px auto 0;
+
   @media (min-width: 768px) {
     margin-top: 64px;
   }
@@ -59,6 +61,7 @@
 
 .main-content__reviews {
   margin: 32px auto 0;
+
   @media (min-width: 768px) {
     margin-top: 64px;
   }
@@ -66,6 +69,7 @@
 
 .main-content__slider-inst {
   margin: 32px auto 0;
+
   @media (min-width: 768px) {
     margin-top: 64px;
   }
@@ -78,6 +82,7 @@
 .main-content__news-layout {
   margin: 10px auto 0;
   padding: 0;
+
   @media screen and (min-width: 1024px) {
     margin: 50px auto 0;
   }

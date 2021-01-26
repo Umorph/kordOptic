@@ -1,232 +1,232 @@
 .slider-promo {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .slider-promo__list {
-    position: relative;
-    margin: 0;
-    padding: 0;
+  position: relative;
+  margin: 0;
+  padding: 0;
 
-    list-style: none;
+  list-style: none;
 }
 
 .slider-promo__list .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+
+  font-size: 0;
+
+  background: none;
+  background-color: $trueWhite;
+  border: none;
+  border-radius: 50%;
+
+  transform: translateY(-25px);
+
+  z-index: 5;
+
+  cursor: pointer;
+
+  &::before {
+    content: "";
     position: absolute;
     top: 50%;
-    margin: 0;
-    padding: 0;
-    width: 50px;
-    height: 50px;
+    left: 50%;
+    display: block;
+    width: 20px;
+    height: 8px;
 
-    font-size: 0;
+    transform: translate(-10px, -4px);
 
-    background: none;
-    background-color: $trueWhite;
-    border: none;
-    border-radius: 50%;
-
-    transform: translateY(-25px);
-
-    z-index: 5;
-
-    cursor: pointer;
-
-    &::before {
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        display: block;
-        width: 20px;
-        height: 8px;
-
-        transform: translate(-10px, -4px);
-
-        z-index: 10;
-    }
+    z-index: 10;
+  }
 }
 
 .slider-promo__list .slick-prev {
-    left: 0;
-    transform: translate(-25px, -25px);
+  left: 0;
+  transform: translate(-25px, -25px);
 
-    &::before {
-        background-image: url("../img/arrow-prev.svg");
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
+  &::before {
+    background-image: url("../img/arrow-prev.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
 
 .slider-promo__list .slick-next {
-    right: 0;
-    transform: translate(25px, -25px);
+  right: 0;
+  transform: translate(25px, -25px);
 
-    &::before {
-        background-image: url("../img/arrow-next.svg");
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
+  &::before {
+    background-image: url("../img/arrow-next.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
 
 .slider-promo__item {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .slider-promo__content {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 
-    background: linear-gradient(90deg, #4351D8 0%, #4F60FF 44.06%, #4351D8 100%);;
+  background: linear-gradient(90deg, #4351d8 0%, #4f60ff 44.06%, #4351d8 100%);
 }
 
 .slider-promo__image {
-    margin: 0;
-    padding: 0;
-    width: 100px;
-    height: 100px;
-    flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
 
-    @media screen and (min-width: 768px) {
-        width: 400px;
-        height: 400px;
-    }
+  @media screen and (min-width: 768px) {
+    width: 400px;
+    height: 400px;
+  }
 }
 
 .slider-promo__image img {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .slider-promo__text-wrapper {
-    margin: 0 0 0 20px;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+  margin: 0 0 0 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .slider-promo__topic {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
-    font-family: $geometria;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 18px;
-    color: $trueWhite;
+  font-family: $geometria;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: $trueWhite;
 
-    @media screen and (min-width: 768px) {
-        font-size: 50px;
-        line-height: 50px;
-    }
+  @media screen and (min-width: 768px) {
+    font-size: 50px;
+    line-height: 50px;
+  }
 }
 
 .slider-promo__link {
-    position: relative;
+  position: relative;
 
-    box-sizing: border-box;
-    margin: 10px 0 0;
-    padding: 0 10px 0 0;
+  box-sizing: border-box;
+  margin: 10px 0 0;
+  padding: 0 10px 0 0;
 
-    font-family: $geometria;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 8px;
-    line-height: 10px;
-    color: $trueWhite;
-    text-decoration: none;
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 8px;
+  line-height: 10px;
+  color: $trueWhite;
+  text-decoration: none;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    display: block;
+    width: 4px;
+    height: 1px;
+
+    background-color: $trueWhite;
+    border-radius: 1px;
+  }
+
+  &::before {
+    top: 40%;
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    top: 60%;
+    transform: rotate(-45deg);
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 50px 0 0;
+    padding: 0 20px 0 0;
+
+    font-size: 20px;
+    line-height: 35px;
 
     &::before,
     &::after {
-        content: "";
-        position: absolute;
-        top: 50%;
-        right: 0;
-
-        display: block;
-        width: 4px;
-        height: 1px;
-
-        background-color: $trueWhite;
-        border-radius: 1px;
+      width: 10px;
     }
-
-    &::before {
-        top: 40%;
-        transform: rotate(45deg);
-    }
-
-    &::after {
-        top: 60%;
-        transform: rotate(-45deg);
-    }
-
-    @media screen and (min-width: 768px) {
-        margin: 50px 0 0;
-        padding: 0 20px 0 0;
-
-        font-size: 20px;
-        line-height: 35px;
-
-        &::before,
-        &::after {
-            width: 10px;
-        }
-    }
+  }
 }
 
 .slider-promo__list .slick-dots {
-    position: absolute;
-    bottom: 25px;
+  position: absolute;
+  bottom: 25px;
 
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 
-    list-style: none;
+  list-style: none;
 }
 
 .slider-promo__list .slick-dots li {
-    margin: 0 10px 0 0;
-    display: flex;
-    align-items: center;
+  margin: 0 10px 0 0;
+  display: flex;
+  align-items: center;
 
-    &:last-child {
-        margin-right: 0;
-    }
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .slider-promo__list .slick-dots li button {
-    margin: 0;
-    padding: 0;
-    width: 10px;
-    height: 10px;
+  margin: 0;
+  padding: 0;
+  width: 10px;
+  height: 10px;
 
-    font-size: 0;
+  font-size: 0;
 
-    background: none;
-    background-color: $trueWhite;
-    border: none;
-    border-radius: 50%;
+  background: none;
+  background-color: $trueWhite;
+  border: none;
+  border-radius: 50%;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .slider-promo__list .slick-dots .slick-active button {
-    background: $blueMain;
+  background: $blueMain;
 }
