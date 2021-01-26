@@ -342,3 +342,22 @@
   min-width: 290px;
   max-width: 1410px;
 }
+
+.main-content__advantages {
+  margin: 75px auto 0;
+  padding: 0;
+  min-width: 290px;
+  max-width: 1410px;
+
+  @media screen and (min-width: 768px) {
+    margin: 100px auto 0;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 125px auto 0;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin: 150px auto 0;
+  }
+}
