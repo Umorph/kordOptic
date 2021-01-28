@@ -7265,8 +7265,8 @@ input::-webkit-inner-spin-button {
   position: fixed;
   bottom: 30px;
   left: 30px;
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   font-size: 0;
   background: none;
   background-color: #4351d8;
@@ -7274,6 +7274,40 @@ input::-webkit-inner-spin-button {
   border-radius: 50%;
   cursor: pointer;
   z-index: 201;
+}
+
+.feedback-popup__toggle-button::before,
+.feedback-popup__toggle-button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transform: translate(-25px, -25px);
+      -ms-transform: translate(-25px, -25px);
+          transform: translate(-25px, -25px);
+}
+
+.feedback-popup__toggle-button::before {
+  background-image: url("../img/mail-closed-icon.svg");
+}
+
+.feedback-popup__toggle-button::after {
+  content: none;
+  background-image: url("../img/mail-opened-icon.svg");
+}
+
+.feedback-popup__toggle-button--opened::before {
+  content: none;
+}
+
+.feedback-popup__toggle-button--opened::after {
+  content: "";
 }
 
 @media screen and (min-width: 375px) {
