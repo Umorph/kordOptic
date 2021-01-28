@@ -7017,8 +7017,8 @@ input::-webkit-inner-spin-button {
 }
 
 .modal-store {
-  position: absolute;
-  top: 150px;
+  position: fixed;
+  top: 50%;
   left: 50%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -7052,9 +7052,9 @@ input::-webkit-inner-spin-button {
 }
 
 .modal-store--opened {
-  -webkit-transform: translate(-180px, 0);
-      -ms-transform: translate(-180px, 0);
-          transform: translate(-180px, 0);
+  -webkit-transform: translate(-180px, -330px);
+      -ms-transform: translate(-180px, -330px);
+          transform: translate(-180px, -330px);
 }
 
 .modal-store__close-button {
@@ -7236,6 +7236,46 @@ input::-webkit-inner-spin-button {
   background-color: #ffffff;
   border: none;
   border-radius: 80px;
+}
+
+.feedback-popup {
+  margin: 0;
+  padding: 0;
+}
+
+.feedback-popup__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  -webkit-box-shadow: inset 0 0 0 1px red;
+          box-shadow: inset 0 0 0 1px red;
+}
+
+.feedback-popup__toggle-button {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  font-size: 0;
+  background: none;
+  background-color: #4351d8;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 201;
 }
 
 @media screen and (min-width: 375px) {
