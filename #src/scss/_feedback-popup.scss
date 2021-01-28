@@ -1,7 +1,6 @@
 .feedback-popup {
   margin: 0;
   padding: 0;
-  // @include outline(red);
 }
 
 .feedback-popup__wrapper {
@@ -16,8 +15,6 @@
   height: 100vh;
 
   z-index: 10;
-
-  @include outline(red);
 }
 
 .feedback-popup__toggle-button {
