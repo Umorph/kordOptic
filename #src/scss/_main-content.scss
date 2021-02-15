@@ -380,3 +380,22 @@
     margin: 150px auto 0;
   }
 }
+
+.main-content__services-layout {
+  margin: 25px auto 0;
+  padding: 0;
+  min-width: 290px;
+  max-width: 1410px;
+
+  @media screen and (min-width: 768px) {
+    margin: 30px auto 0;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 40px auto 0;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin: 50px auto 0;
+  }
+}
