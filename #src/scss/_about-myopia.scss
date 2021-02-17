@@ -1,0 +1,102 @@
+.about-myopia {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.about-myopia__inner {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    align-items: flex-start;
+  }
+}
+
+.about-myopia__photo {
+  width: 100%;
+  height: auto;
+  max-width: 671px;
+
+  @media screen and (min-width: 768px) {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+}
+
+.about-myopia__img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+  height: auto;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 15px;
+  }
+}
+
+.about-myopia__text {
+  margin: 25px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    align-items: flex-start;
+  }
+}
+
+.about-myopia__heading {
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  color: $blueMain;
+
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 36px;
+    line-height: 43px;
+  }
+}
+
+.about-myopia__paragraph {
+  margin: 10px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: $darkFullBlue;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 15px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin-top: 25px;
+  }
+}
