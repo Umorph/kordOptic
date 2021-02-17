@@ -1,0 +1,307 @@
+.myopia-risks {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.myopia-risks__heading {
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  color: $blueMain;
+
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 36px;
+    line-height: 43px;
+  }
+}
+
+.myopia-risks__text {
+  margin: 15px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: $darkFullBlue;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 20px;
+
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin-top: 25px;
+
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.myopia-risks__disease-inner {
+  margin: 25px 0 0;
+  padding: 0;
+}
+
+.myopia-risks__desc {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: $darkFullBlue;
+}
+
+.myopia-risks__disease-list {
+  margin: 15px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  list-style: none;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.myopia-risks__disease-item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.myopia-risks__photo {
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  height: 120px;
+
+  border-radius: 50%;
+  overflow: hidden;
+
+  @media screen and (min-width: 425px) {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+.myopia-risks__img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.myopia-risks__disease {
+  display: block;
+  margin: 10px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: $darkFullBlue;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+.myopia-risks__reasons-inner {
+  margin: 25px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 30px;
+  }
+}
+
+.myopia-risks__subject {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: $darkFullBlue;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+.myopia-risks__reasons-list {
+  margin: 15px 0 0;
+  padding: 0;
+  display: grid;
+  grid-row-gap: 15px;
+
+  list-style: none;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+}
+
+.myopia-risks__reasons-item {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  background: #F8FAFF;
+  border-radius: 10px;
+}
+
+.myopia-risks__reasons-number {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 70px;
+  color: $blueMain;
+}
+
+.myopia-risks__reasons-text {
+  display: block;
+  margin: 10px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: $darkFullBlue;
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+.myopia-risks__statistics-inner {
+  margin: 55px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 65px;
+    align-items: flex-start;
+  }
+
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.myopia-risks__statistics-number {
+  box-sizing: border-box;
+  margin: 0;
+  width: 212px;
+  height: 78px;
+
+  @media screen and (min-width: 768px) {
+    width: 400px;
+    height: 150px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    flex-shrink: 0;
+  }
+}
+
+.myopia-risks__statistics-number svg {
+  width: 100%;
+  height: auto;
+}
+
+.myopia-risks__statistics-text {
+  margin: 50px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: $darkFullBlue;
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin-top: 0;
+    margin-left: 20px;
+
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
