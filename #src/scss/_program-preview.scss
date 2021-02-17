@@ -18,8 +18,6 @@
     grid-gap: 30px;
     align-items: flex-start;
   }
-
-  @include outline(darkgreen);
 }
 
 .program-preview__item-photo {
@@ -47,8 +45,6 @@
   @media screen and (min-width: 1024px) {
     margin-top: 55px;
   }
-
-  outline: 1px solid darkorange;
 }
 
 .program-preview__text {
@@ -65,8 +61,6 @@
     grid-row: 1 / 2;
     align-items: flex-start;
   }
-
-  @include outline(tomato);
 }
 
 .program-preview__heading {
@@ -89,8 +83,6 @@
     font-size: 48px;
     line-height: 53px;
   }
-
-  @include outline(blue);
 }
 
 .program-preview__anchor-link {
@@ -136,8 +128,6 @@
     font-size: 28px;
     line-height: 36px;
   }
-
-  @include outline(green);
 }
 
 .program-preview__link {
