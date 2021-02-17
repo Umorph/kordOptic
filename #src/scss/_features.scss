@@ -1,0 +1,139 @@
+.features {
+  margin: 0;
+  padding: 0;
+}
+
+.features__wrapper {
+  background-color: $blueMain;
+}
+
+.features__inner {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1410px;
+}
+
+
+.features__container {
+  margin: 30px auto 0;
+  padding: 50px 15px;
+  max-width: 1410px;
+  display: flex;
+
+  @media screen and (min-width: 1024px) {
+    padding-top: 70px;
+    padding-bottom: 90px;
+  }
+
+  @media screen and (min-width: 1160px) {
+    padding-top: 90px;
+    padding-bottom: 130px;
+  }
+}
+
+.features__list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 40px;
+
+  list-style: none;
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.features__item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media screen and (min-width: 768px) {
+    align-items: flex-start;
+  }
+
+  @media screen and (min-width: 1024px) {
+    &--shifted {
+      margin-top: 25px;
+    }
+
+    &--double-shifted {
+      margin-top: 50px;
+    }
+  }
+}
+
+.features__slogan {
+  width: 288px;
+
+  @media screen and (min-width: 1024px) {
+    width: 300px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 300px;
+  }
+
+  @media screen and (min-width: 1160px) {
+    width: 350px;
+  }
+}
+
+.features__slogan svg {
+  width: 100%;
+  height: auto;
+}
+
+.features__subheading {
+  margin: 10px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  color: $darkFullBlue;
+
+  &--white {
+    color: $trueWhite;
+  }
+}
+
+.features__desc {
+  margin: 8px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: $darkFullBlue;
+
+  &--white {
+    color: $trueWhite;
+  }
+
+  &--with-line {
+    position: relative;
+    margin: 16px 0 0;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -8px;
+      left: 0;
+
+      display: block;
+      width: 52px;
+      height: 1px;
+
+      background-color: $trueWhite;
+    }
+  }
+}

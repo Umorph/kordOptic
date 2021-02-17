@@ -1,10 +1,11 @@
 .main-content {
   margin: 0;
-  padding: 0 15px;
+  padding: 0;
 }
 
 .main-content__slider-offer {
   margin: 15px auto 0;
+  padding: 0 15px;
 
   @media (min-width: 768px) {
     margin-top: 30px;
@@ -13,6 +14,7 @@
 
 .main-content__slider-package {
   margin: 15px auto 0;
+  padding: 0 15px;
 
   @media (min-width: 768px) {
     margin-top: 30px;
@@ -21,6 +23,7 @@
 
 .main-content__services {
   margin: 15px auto 0;
+  padding: 0 15px;
 
   @media (min-width: 768px) {
     margin-top: 65px;
@@ -29,6 +32,7 @@
 
 .main-content__about {
   margin: 32px auto 0;
+  padding: 0 15px;
 
   @media (min-width: 768px) {
     margin-top: 65px;
@@ -37,6 +41,7 @@
 
 .main-content__stat {
   margin: 32px auto 0;
+  padding: 0 15px;
 
   @media (min-width: 768px) {
     margin-top: 10px;
@@ -45,6 +50,7 @@
 
 .main-content__history {
   margin: 0 auto;
+  padding: 0 15px;
 
   @media (min-width: 768px) {
     margin-top: 32px;
@@ -53,6 +59,7 @@
 
 .main-content__news {
   margin: 32px auto 0;
+  padding: 0 15px;
 
   @media (min-width: 768px) {
     margin-top: 64px;
@@ -61,6 +68,7 @@
 
 .main-content__reviews {
   margin: 32px auto 0;
+  padding: 0 15px;
 
   @media (min-width: 768px) {
     margin-top: 64px;
@@ -69,6 +77,7 @@
 
 .main-content__slider-inst {
   margin: 32px auto 0;
+  padding: 0 15px;
 
   @media (min-width: 768px) {
     margin-top: 64px;
@@ -77,11 +86,12 @@
 
 .main-content__breadcrumbs {
   margin: 10px auto 0;
+  padding: 0 15px;
 }
 
 .main-content__news-layout {
   margin: 10px auto 0;
-  padding: 0;
+  padding: 0 15px;
 
   @media screen and (min-width: 1024px) {
     margin: 50px auto 0;
@@ -90,11 +100,12 @@
 
 .main-content__pagination {
   margin: 0 auto;
-  padding: 0;
+  padding: 0 15px;
 }
 
 .main-content__description-wrapper {
   margin: 35px auto 0;
+  padding: 0 15px;
   width: 310px;
   display: flex;
   flex-direction: column;
@@ -123,6 +134,7 @@
 }
 
 .main-content__description {
+  padding: 0 15px;
   height: 215px;
 
   font-family: $geometria;
@@ -141,7 +153,7 @@
 .main-content__description-button {
   box-sizing: border-box;
   margin: 10px 0 0;
-  padding: 0;
+  padding: 0 15px;
 
   font-family: $geometria;
   font-weight: 500;
@@ -159,7 +171,7 @@
 
 .main-content__catalog {
   margin: 15px auto 20px;
-  padding: 0;
+  padding: 0 15px;
 
   @media screen and (min-width: 768px) {
     margin: 30px auto 20px;
@@ -172,7 +184,7 @@
 
 .main-content__warnings {
   margin: 0 auto 25px;
-  padding: 0;
+  padding: 0 15px;;
   max-width: 1410px;
 
   font-family: $geometria;
@@ -192,7 +204,7 @@
 
 .main-content__promo {
   margin: 15px auto 0;
-  padding: 0;
+  padding: 0 15px;
   max-width: 1410px;
 
   @media screen and (min-width: 1024px) {
@@ -202,7 +214,7 @@
 
 .main-content__promo-description {
   margin: 20px auto;
-  padding: 0;
+  padding: 0 15px;
   max-width: 1410px;
 
   font-family: $geometria;
@@ -240,7 +252,7 @@
 
 .main-content__item-heading {
   margin: 10px auto 0;
-  padding: 0;
+  padding: 0 15px;
   max-width: 1410px;
 
   font-family: $geometria;
@@ -274,13 +286,13 @@
 
 .main-content__item-page {
   margin: 15px auto 0;
-  padding: 0;
+  padding: 0 15px;
   max-width: 1410px;
 }
 
 .main-content__recommendation {
   margin: 30px auto 0;
-  padding: 0;
+  padding: 0 15px;
   max-width: 1410px;
 
   @media screen and (min-width: 425px) {
@@ -298,7 +310,7 @@
 
 .main-content__info {
   margin: 25px auto 0;
-  padding: 0;
+  padding: 0 15px;
   max-width: 1410px;
 
   @media screen and (min-width: 425px) {
@@ -316,14 +328,14 @@
 
 .main-content__slider-promo {
   margin: 0 auto;
-  padding: 0;
+  padding: 0 15px;
   min-width: 290px;
   max-width: 1410px;
 }
 
 .main-content__products {
   margin: 25px auto 0;
-  padding: 0;
+  padding: 0 15px;
   min-width: 290px;
   max-width: 1410px;
 
@@ -338,14 +350,14 @@
 
 .main-content__catalog-reviews {
   margin: 50px auto 0;
-  padding: 0;
+  padding: 0 15px;
   min-width: 290px;
   max-width: 1410px;
 }
 
 .main-content__advantages {
   margin: 75px auto 0;
-  padding: 0;
+  padding: 0 15px;
   min-width: 290px;
   max-width: 1410px;
 
@@ -364,7 +376,7 @@
 
 .main-content__write-us {
   margin: 75px auto 0;
-  padding: 0;
+  padding: 0 15px;
   min-width: 290px;
   max-width: 1410px;
 
@@ -383,7 +395,7 @@
 
 .main-content__services-layout {
   margin: 25px auto 0;
-  padding: 0;
+  padding: 0 15px;
   min-width: 290px;
   max-width: 1410px;
 
@@ -402,7 +414,7 @@
 
 .main-content__program-preview {
   margin: 30px auto 0;
-  padding: 0;
+  padding: 0 15px;
   min-width: 290px;
   max-width: 1410px;
 
@@ -417,21 +429,28 @@
 
 .main-content__about-myopia {
   margin: 0 auto;
-  padding: 0;
+  padding: 0 15px;
   min-width: 290px;
   max-width: 1410px;
 }
 
 .main-content__myopia-risks {
   margin: 0 auto;
-  padding: 0;
+  padding: 0 15px;
   min-width: 290px;
   max-width: 1410px;
 }
 
 .main-content__solution {
   margin: 0 auto;
-  padding: 0;
+  padding: 0 15px;
   min-width: 290px;
   max-width: 1410px;
+}
+
+.main-content__features {
+  margin: 0;
+  padding: 0;
+  min-width: 290px;
+  width: 100%;
 }
