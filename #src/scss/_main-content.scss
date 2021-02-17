@@ -399,3 +399,12 @@
     margin: 50px auto 0;
   }
 }
+
+.main-content__program-preview {
+  margin: 30px auto 0;
+  padding: 0;
+  min-width: 290px;
+  max-width: 1410px;
+
+  @include outline(red);
+}
