@@ -1,0 +1,170 @@
+.lens-advantages {
+  margin: 0;
+  padding: 0;
+}
+
+.lens-advantages__wrapper {
+  margin: 0 auto;
+  padding: 30px 15px;
+  max-width: 1410px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  @media screen and (min-width: 768px) {
+    padding: 50px 15px 55px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    padding: 70px 15px 80px;
+  }
+}
+
+.lens-advantages__heading {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  color: $blueMain;
+
+  @media screen and (min-width: 768px) {
+    font-size: 38px;
+    line-height: 50px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 48px;
+    line-height: 62px
+  }
+}
+
+.lens-advantages__text {
+  display: block;
+  margin: 15px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: $darkFullBlue;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 10px;
+
+    font-size: 22px;
+    line-height: 31px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+
+.lens-advantages__inner {
+  margin: 25px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 60px;
+  }
+}
+
+.lens-advantages__subheading {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: $darkFullBlue;
+}
+
+.lens-advantages__list {
+  margin: 15px 0 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 40px;
+
+  list-style: none;
+
+  @media screen and (min-width: 1024px) {
+    margin-top: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+}
+
+.lens-advantages__item {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 62px 1fr;
+  grid-gap: 15px;
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: 90px 1fr;
+    grid-gap: 20px;
+  }
+}
+
+.lens-advantages__number {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 54px;
+  color: $darkFullBlue;
+
+  @media screen and (min-width: 768px) {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 72px;
+    line-height: 75px;
+  }
+}
+
+.lens-advantages__paragraph {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: $darkFullBlue;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 20px;
+    line-height: 29px;
+  }
+
+  @media screen and (min-width: 1160px) {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
