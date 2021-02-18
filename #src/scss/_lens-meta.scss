@@ -1,0 +1,136 @@
+.lens-meta {
+  margin: 0;
+  padding: 30px 15px;
+  display: flex;
+
+  background-color: #F8FAFF;
+
+  @media screen and (min-width: 768px) {
+    padding: 50px 15px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    padding: 85px 15px;
+  }
+}
+
+.lens-meta__wrapper {
+  margin: 0 auto;
+  max-width: 1410px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.lens-meta__hint {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  color: $blueMain;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+
+.lens-meta__footnote {
+  margin: 40px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  color: $darkFullBlue;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+.lens-meta__inner {
+  margin: 40px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.lens-meta__subheading {
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: $darkFullBlue;
+}
+
+.lens-meta__list {
+  margin: 10px 0 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 25px;
+
+  list-style: none;
+}
+
+.lens-meta__item {
+  margin: 0;
+  padding: 0;
+}
+
+.lens-meta__text {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  color: $greyBlue;
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+.lens-meta__registration {
+  display: block;
+  margin: 40px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  color: $darkFullBlue;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
