@@ -7267,6 +7267,7 @@ input::-webkit-inner-spin-button {
   padding: 0;
   display: grid;
   grid-row-gap: 25px;
+  width: 100%;
 }
 
 .lens-features__item-photo {
