@@ -471,10 +471,14 @@
 }
 
 .main-content__lens-advantages {
-  margin: 30px 0;
+  margin: 30px 0 0;
   padding: 0;
   min-width: 290px;
   width: 100%;
 
   background-color: #F8FAFF;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 60px;
+  }
 }
