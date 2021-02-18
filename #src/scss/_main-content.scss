@@ -454,3 +454,18 @@
   min-width: 290px;
   width: 100%;
 }
+
+.main-content__lens-info {
+  margin: 30px auto 0;
+  padding: 0 15px;
+  min-width: 290px;
+  max-width: 1410px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 60px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin-top: 90px;
+  }
+}
