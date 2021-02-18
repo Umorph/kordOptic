@@ -1,0 +1,123 @@
+.lens-features {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.lens-features__inner {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-row-gap: 25px;
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+  }
+
+  @media screen and (min-width: 1160px) {
+    grid-column-gap: 100px;
+  }
+
+  @media screen and (min-width: 1260px) {
+    grid-column-gap: 150px;
+  }
+}
+
+.lens-features__item-photo {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lens-features__img {
+  display: block;
+  width: 100%;
+  max-width: 569px;
+}
+
+.lens-features__desc {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.lens-features__heading {
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: $darkFullBlue;
+
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+
+.lens-features__features-list {
+  margin: 10px 0 0;
+  padding: 0;
+  display: grid;
+  grid-row-gap: 15px;
+
+  list-style: none;
+}
+
+.lens-features__features-item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.lens-features__features-topic {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  color: $darkFullBlue;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.lens-features__features-text {
+  display: block;
+  margin: 0 0 0 5px;
+  padding: 0;
+
+  font-family: $geometria;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  color: $darkFullBlue;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+}
