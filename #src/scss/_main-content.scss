@@ -482,3 +482,18 @@
     margin-top: 60px;
   }
 }
+
+.main-content__selection {
+  margin: 30px auto 0;
+  padding: 0 15px;
+  min-width: 290px;
+  max-width: 1410px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 45px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin-top: 65px;
+  }
+}
