@@ -6929,6 +6929,124 @@ input::-webkit-inner-spin-button {
   color: #16171a;
 }
 
+.lens-advantages {
+  margin: 0;
+  padding: 0;
+}
+
+.lens-advantages__wrapper {
+  margin: 0 auto;
+  padding: 30px 15px;
+  max-width: 1410px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.lens-advantages__heading {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  color: #4351d8;
+}
+
+.lens-advantages__text {
+  display: block;
+  margin: 15px 0 0;
+  padding: 0;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #16171a;
+}
+
+.lens-advantages__inner {
+  margin: 25px 0 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.lens-advantages__subheading {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #16171a;
+}
+
+.lens-advantages__list {
+  margin: 15px 0 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 40px;
+  list-style: none;
+}
+
+.lens-advantages__item {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 62px 1fr;
+  grid-gap: 15px;
+}
+
+.lens-advantages__number {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 54px;
+  color: #16171a;
+}
+
+.lens-advantages__paragraph {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #16171a;
+}
+
 .main-content {
   margin: 0;
   padding: 0;
@@ -7197,6 +7315,14 @@ input::-webkit-inner-spin-button {
   padding: 0 15px;
   min-width: 290px;
   max-width: 1410px;
+}
+
+.main-content__lens-advantages {
+  margin: 30px 0 0;
+  padding: 0;
+  min-width: 290px;
+  width: 100%;
+  background-color: #F8FAFF;
 }
 
 .footer {
@@ -9425,6 +9551,30 @@ input::-webkit-inner-spin-button {
     line-height: 31px;
   }
 
+  .lens-advantages__wrapper {
+    padding: 50px 15px 55px;
+  }
+
+  .lens-advantages__heading {
+    font-size: 38px;
+    line-height: 50px;
+  }
+
+  .lens-advantages__text {
+    margin-top: 10px;
+    font-size: 22px;
+    line-height: 31px;
+  }
+
+  .lens-advantages__inner {
+    margin-top: 60px;
+  }
+
+  .lens-advantages__number {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
   .main-content__description-wrapper {
     width: 768px;
   }
@@ -9474,6 +9624,10 @@ input::-webkit-inner-spin-button {
   }
 
   .main-content__lens-info {
+    margin-top: 60px;
+  }
+
+  .main-content__lens-advantages {
     margin-top: 60px;
   }
 }
@@ -10274,6 +10428,41 @@ input::-webkit-inner-spin-button {
     line-height: 36px;
   }
 
+  .lens-advantages__wrapper {
+    padding: 70px 15px 80px;
+  }
+
+  .lens-advantages__heading {
+    font-size: 48px;
+    line-height: 62px;
+  }
+
+  .lens-advantages__text {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .lens-advantages__list {
+    margin-top: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+
+  .lens-advantages__item {
+    grid-template-columns: 90px 1fr;
+    grid-gap: 20px;
+  }
+
+  .lens-advantages__number {
+    font-size: 72px;
+    line-height: 75px;
+  }
+
+  .lens-advantages__paragraph {
+    font-size: 20px;
+    line-height: 29px;
+  }
+
   .main-content__news-layout {
     margin: 50px auto 0;
   }
@@ -10385,6 +10574,11 @@ input::-webkit-inner-spin-button {
 
   .features__slogan {
     width: 350px;
+  }
+
+  .lens-advantages__paragraph {
+    font-size: 24px;
+    line-height: 34px;
   }
 }
 
