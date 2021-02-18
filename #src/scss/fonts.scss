@@ -1,5 +1,16 @@
+@include font("Geometria", "Geometria-Thin", "100", "normal");
+@include font("Geometria", "Geometria-ThinItalic", "100", "italic");
+@include font("Geometria", "Geometria-ExtraLight", "200", "normal");
+@include font("Geometria", "Geometria-ExtraLightItalic", "200", "italic");
 @include font("Geometria", "Geometria-Light", "300", "normal");
+@include font("Geometria", "Geometria-LightItalic", "300", "italic");
 @include font("Geometria", "Geometria", "400", "normal");
+@include font("Geometria", "Geometria-Italic", "400", "italic");
 @include font("Geometria", "Geometria-Medium", "500", "normal");
+@include font("Geometria", "Geometria-MediumItalic", "500", "italic");
 @include font("Geometria", "Geometria-Bold", "700", "normal");
+@include font("Geometria", "Geometria-BoldItalic", "700", "italic");
 @include font("Geometria", "Geometria-ExtraBold", "800", "normal");
+@include font("Geometria", "Geometria-ExtraBoldItalic", "800", "italic");
+@include font("Geometria", "Geometria-Heavy", "900", "normal");
+@include font("Geometria", "Geometria-HeavyItalic", "900", "italic");
