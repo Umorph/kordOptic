@@ -7248,6 +7248,122 @@ input::-webkit-inner-spin-button {
   color: #16171a;
 }
 
+.lens-features {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.lens-features__inner {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-row-gap: 25px;
+}
+
+.lens-features__item-photo {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lens-features__img {
+  display: block;
+  width: 100%;
+  max-width: 569px;
+}
+
+.lens-features__desc {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.lens-features__heading {
+  margin: 0;
+  padding: 0;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #16171a;
+}
+
+.lens-features__features-list {
+  margin: 10px 0 0;
+  padding: 0;
+  display: grid;
+  grid-row-gap: 15px;
+  list-style: none;
+}
+
+.lens-features__features-item {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lens-features__features-topic {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  color: #16171a;
+}
+
+.lens-features__features-text {
+  display: block;
+  margin: 0 0 0 5px;
+  padding: 0;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  color: #16171a;
+}
+
 .main-content {
   margin: 0;
   padding: 0;
@@ -7528,6 +7644,13 @@ input::-webkit-inner-spin-button {
 
 .main-content__selection {
   margin: 30px auto 0;
+  padding: 0 15px;
+  min-width: 290px;
+  max-width: 1410px;
+}
+
+.main-content__lens-features {
+  margin: 40px auto 0;
   padding: 0 15px;
   min-width: 290px;
   max-width: 1410px;
@@ -9812,6 +9935,19 @@ input::-webkit-inner-spin-button {
     line-height: 24px;
   }
 
+  .lens-features__heading {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .lens-features__features-topic {
+    font-size: 16px;
+  }
+
+  .lens-features__features-text {
+    font-size: 16px;
+  }
+
   .main-content__description-wrapper {
     width: 768px;
   }
@@ -9870,6 +10006,10 @@ input::-webkit-inner-spin-button {
 
   .main-content__selection {
     margin-top: 45px;
+  }
+
+  .main-content__lens-features {
+    margin-top: 65px;
   }
 }
 
@@ -10724,6 +10864,16 @@ input::-webkit-inner-spin-button {
     line-height: 31px;
   }
 
+  .lens-features__inner {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+  }
+
+  .lens-features__heading {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
   .main-content__news-layout {
     margin: 50px auto 0;
   }
@@ -10845,6 +10995,10 @@ input::-webkit-inner-spin-button {
     font-size: 24px;
     line-height: 34px;
   }
+
+  .lens-features__inner {
+    grid-column-gap: 100px;
+  }
 }
 
 @media (min-width: 1260px) {
@@ -10869,6 +11023,10 @@ input::-webkit-inner-spin-button {
 
   .promo-layout__link {
     margin-top: 50px;
+  }
+
+  .lens-features__inner {
+    grid-column-gap: 150px;
   }
 
   .main-content__promo-description {
