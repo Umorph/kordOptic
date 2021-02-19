@@ -1,0 +1,94 @@
+.sinoptofor-desc {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.sinoptofor-desc__heading {
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+.sinoptofor-desc__wrapper {
+  margin: 25px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 50px;
+  }
+}
+
+.sinoptofor-desc__img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.sinoptofor-desc__inner {
+  margin: 25px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 50px;
+  }
+}
+
+.sinoptofor-desc__text {
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: $greyBlueDark;
+
+  &:not(:first-child) {
+    margin-top: 15px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 22px;
+
+    &:not(:first-child) {
+      margin-top: 25px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
