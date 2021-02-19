@@ -550,10 +550,18 @@
 }
 
 .main-content__sinoptofor-services {
-  margin: 0 auto;
+  margin: 25px auto;
   padding: 0 15px;
   min-width: 290px;
   max-width: 1410px;
+
+  @media screen and (min-width: 768px) {
+    margin: 50px auto;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 75px auto;
+  }
 }
 
 .main-content__sinoptofor-modal {
