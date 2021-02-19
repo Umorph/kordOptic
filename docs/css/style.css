@@ -553,6 +553,54 @@ input::-webkit-inner-spin-button {
   font-style: italic;
 }
 
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("../fonts/Roboto-Thin.woff") format("woff"), url("../fonts/Roboto-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("../fonts/Roboto-Light.woff") format("woff"), url("../fonts/Roboto-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("../fonts/Roboto-Black.woff") format("woff"), url("../fonts/Roboto-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
 .button {
   display: block;
   -webkit-box-sizing: border-box;
@@ -7584,6 +7632,472 @@ input::-webkit-inner-spin-button {
   color: #16171a;
 }
 
+.appointment-form {
+  margin: 0;
+  padding: 0;
+}
+
+.appointment-form__appointment-type {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.appointment-form__radio-list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 15px;
+  width: 100%;
+  list-style: none;
+}
+
+.appointment-form__radio-item {
+  margin: 0;
+  padding: 0;
+}
+
+.appointment-form__radio-label {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  margin: 0;
+  padding: 8px 0;
+  font-family: "Roboto", "helvetica", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.appointment-form__radio-input:checked ~ .appointment-form__radio-label {
+  color: #4351d8;
+  background-color: #ffffff;
+}
+
+.appointment-form__user-data {
+  margin: 20px 0 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.appointment-form__data-list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 20px;
+  width: 100%;
+  list-style: none;
+}
+
+.appointment-form__data-item {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.appointment-form__label {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.appointment-form__label span {
+  display: block;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.appointment-form__select {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  margin: 5px 0 0;
+  padding: 6px 10px;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #3e425b;
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.appointment-form__input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  margin: 5px 0 0;
+  padding: 3px 10px;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #3e425b;
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.appointment-form__calendar-wrapper {
+  position: relative;
+  margin: 5px 0 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.appointment-form__calendar-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  display: block;
+  width: 13px;
+  height: 13px;
+  background-image: url("../img/calendar-icon.svg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transform: translateY(-6.5px);
+      -ms-transform: translateY(-6.5px);
+          transform: translateY(-6.5px);
+  pointer-events: none;
+}
+
+.appointment-form__calendar {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  margin: 0;
+  padding: 3px 10px;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #3e425b;
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.appointment-form__hint {
+  margin: 0;
+  padding: 0;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.appointment-form__eula-label {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 30px;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.appointment-form__eula-label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/catalog-checkbox-white.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.appointment-form__eula-label::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 2.5px;
+  display: none;
+  width: 15px;
+  height: 11px;
+  background-image: url("../img/catalog-checkbox-checked-white.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.appointment-form__checkbox:checked ~ .appointment-form__eula-label::after {
+  display: block;
+}
+
+.appointment-form__textarea {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 10px 15px;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  background: none;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+.appointment-form__textarea::-webkit-input-placeholder {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.appointment-form__textarea::-moz-placeholder {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.appointment-form__textarea:-moz-placeholder {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.appointment-form__textarea:-ms-input-placeholder {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.appointment-form__submit-button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 25px 0 0;
+  padding: 0 30px;
+  min-width: 180px;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #4351d8;
+  background: #ffffff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.appointment-form__sidebar {
+  margin: 35px 0 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.appointment-form__tips-list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 25px;
+  list-style: none;
+}
+
+.appointment-form__tips-item {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+}
+
+.appointment-form__tips-icon {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.appointment-form__tips-text {
+  margin: 25px 0 0;
+  padding: 0;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #4351d8;
+}
+
+.sinoptofor-modal {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+.sinoptofor-modal--opened {
+  display: block;
+}
+
+.sinoptofor-modal__wrapper {
+  margin: 0 auto;
+  padding: 15px 15px 30px;
+  min-width: 290px;
+  max-width: 1410px;
+  display: grid;
+  background: -o-linear-gradient(346.15deg, #4351D8 0%, #5161FB 44.14%, #5161FB 100%, #4351D8 100%);
+  background: linear-gradient(103.85deg, #4351D8 0%, #5161FB 44.14%, #5161FB 100%, #4351D8 100%);
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.sinoptofor-modal__control {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sinoptofor-modal__close-button {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.sinoptofor-modal__close-button::before,
+.sinoptofor-modal__close-button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -2.5px;
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  -webkit-transform: translateY(-1px);
+      -ms-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+
+.sinoptofor-modal__close-button::before {
+  -webkit-transform: translateY(-1px) rotate(45deg);
+      -ms-transform: translateY(-1px) rotate(45deg);
+          transform: translateY(-1px) rotate(45deg);
+}
+
+.sinoptofor-modal__close-button::after {
+  -webkit-transform: translateY(-1px) rotate(-45deg);
+      -ms-transform: translateY(-1px) rotate(-45deg);
+          transform: translateY(-1px) rotate(-45deg);
+}
+
+.sinoptofor-modal__form {
+  margin: 25px 0 0;
+  padding: 0;
+}
+
 .main-content {
   margin: 0;
   padding: 0;
@@ -7887,6 +8401,26 @@ input::-webkit-inner-spin-button {
   margin: 30px 0;
   min-width: 290px;
   width: 100%;
+}
+
+.main-content__sinoptofor-desc {
+  margin: 0 auto;
+  padding: 0 15px;
+  min-width: 290px;
+  max-width: 1410px;
+}
+
+.main-content__sinoptofor-services {
+  margin: 0 auto;
+  padding: 0 15px;
+  min-width: 290px;
+  max-width: 1410px;
+}
+
+.main-content__sinoptofor-modal {
+  margin: 0;
+  padding: 0;
+  min-width: 290px;
 }
 
 .footer {
@@ -10225,6 +10759,107 @@ input::-webkit-inner-spin-button {
     line-height: 36px;
   }
 
+  .appointment-form {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 50px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  .appointment-form__appointment-type {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+
+  .appointment-form__radio-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .appointment-form__radio-label {
+    padding: 14px 0;
+  }
+
+  .appointment-form__user-data {
+    margin-top: 0;
+  }
+
+  .appointment-form__data-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .appointment-form__data-item--column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    grid-gap: 0;
+  }
+
+  .appointment-form__label {
+    font-size: 16px;
+  }
+
+  .appointment-form__select {
+    margin-top: 0;
+    font-size: 14px;
+  }
+
+  .appointment-form__input {
+    margin-top: 0;
+    padding: 4px 10px;
+    font-size: 14px;
+  }
+
+  .appointment-form__calendar-wrapper {
+    margin-top: 15px;
+  }
+
+  .appointment-form__calendar {
+    margin-top: 0;
+    padding: 4px 10px;
+    font-size: 14px;
+  }
+
+  .appointment-form__hint {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .appointment-form__eula-label {
+    font-size: 15px;
+  }
+
+  .appointment-form__submit-button {
+    padding: 0 60px;
+    font-size: 16px;
+    line-height: 35px;
+  }
+
+  .appointment-form__sidebar {
+    margin-top: 0;
+  }
+
+  .sinoptofor-modal__wrapper {
+    padding: 20px 30px;
+  }
+
   .main-content__description-wrapper {
     width: 768px;
   }
@@ -11164,6 +11799,65 @@ input::-webkit-inner-spin-button {
     line-height: 48px;
   }
 
+  .appointment-form__radio-label {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .appointment-form__data-item {
+    grid-template-columns: 1.5fr 1fr;
+  }
+
+  .appointment-form__label {
+    font-size: 18px;
+  }
+
+  .appointment-form__label span {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .appointment-form__select {
+    font-size: 16px;
+  }
+
+  .appointment-form__input {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  .appointment-form__calendar-wrapper::after {
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    -webkit-transform: translateY(-7.5px);
+        -ms-transform: translateY(-7.5px);
+            transform: translateY(-7.5px);
+  }
+
+  .appointment-form__calendar {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  .appointment-form__hint {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .appointment-form__eula-label {
+    padding: 0 0 0 40px;
+    font-size: 18px;
+  }
+
+  .appointment-form__submit-button {
+    padding: 0 90px;
+  }
+
+  .sinoptofor-modal__wrapper {
+    padding: 30px 50px;
+  }
+
   .main-content__news-layout {
     margin: 50px auto 0;
   }
@@ -11321,6 +12015,43 @@ input::-webkit-inner-spin-button {
 
   .lens-features__inner {
     grid-column-gap: 150px;
+  }
+
+  .appointment-form__label {
+    font-size: 20px;
+  }
+
+  .appointment-form__label span {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .appointment-form__select {
+    padding: 11.5px 10px;
+    font-size: 20px;
+  }
+
+  .appointment-form__input {
+    padding: 13px 10px;
+    font-size: 20px;
+  }
+
+  .appointment-form__calendar-wrapper::after {
+    right: 15px;
+    width: 17px;
+    height: 17px;
+    -webkit-transform: translateY(-8.5px);
+        -ms-transform: translateY(-8.5px);
+            transform: translateY(-8.5px);
+  }
+
+  .appointment-form__calendar {
+    padding: 13px 10px;
+    font-size: 20px;
+  }
+
+  .sinoptofor-modal__wrapper {
+    padding: 50px 75px;
   }
 
   .main-content__promo-description {
