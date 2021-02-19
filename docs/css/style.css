@@ -8186,6 +8186,127 @@ input::-webkit-inner-spin-button {
   margin-top: 15px;
 }
 
+.sinoptofor-services {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sinoptofor-services__list {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.sinoptofor-services__item {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.sinoptofor-services__icon {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+}
+
+.sinoptofor-services__inner {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sinoptofor-services__text {
+  margin: 0 0 0 20px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.sinoptofor-services__subheading {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "helvetica", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4351d8;
+}
+
+.sinoptofor-services__price {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "helvetica", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #3e425b;
+}
+
+.sinoptofor-services__button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 20px 0 0;
+  padding: 0 22px;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  background: #4351d8;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
 .main-content {
   margin: 0;
   padding: 0;
@@ -8499,7 +8620,7 @@ input::-webkit-inner-spin-button {
 }
 
 .main-content__sinoptofor-services {
-  margin: 0 auto;
+  margin: 25px auto;
   padding: 0 15px;
   min-width: 290px;
   max-width: 1410px;
@@ -10970,6 +11091,28 @@ input::-webkit-inner-spin-button {
     margin-top: 25px;
   }
 
+  .sinoptofor-services__icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .sinoptofor-services__subheading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .sinoptofor-services__price {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .sinoptofor-services__button {
+    margin: 30px 0 0;
+    padding: 0;
+    font-size: 17px;
+    line-height: 30px;
+  }
+
   .main-content__description-wrapper {
     width: 768px;
   }
@@ -11040,6 +11183,10 @@ input::-webkit-inner-spin-button {
 
   .main-content__sinoptofor-desc {
     margin: 30px auto 0;
+  }
+
+  .main-content__sinoptofor-services {
+    margin: 50px auto;
   }
 }
 
@@ -11982,6 +12129,28 @@ input::-webkit-inner-spin-button {
     line-height: 25px;
   }
 
+  .sinoptofor-services__icon {
+    width: 100px;
+    height: 100px;
+  }
+
+  .sinoptofor-services__subheading {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .sinoptofor-services__price {
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .sinoptofor-services__button {
+    margin: 35px 0 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
   .main-content__news-layout {
     margin: 50px auto 0;
   }
@@ -12057,6 +12226,10 @@ input::-webkit-inner-spin-button {
 
   .main-content__sinoptofor-desc {
     margin: 40px auto 0;
+  }
+
+  .main-content__sinoptofor-services {
+    margin: 75px auto;
   }
 }
 
