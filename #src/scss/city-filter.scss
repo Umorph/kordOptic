@@ -1,0 +1,222 @@
+.city-filter {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.city-filter__inner {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.city-filter__heading {
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 24px;
+    line-height: 25px;
+  }
+}
+
+.city-filter__link {
+  position: relative;
+
+  margin: 0 0 0 15px;
+  padding: 0 20px 0 0;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration: none;
+  color: $blueMain;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 8px;
+
+    display: block;
+    width: 5px;
+    height: 1px;
+
+    background-color: $blueMain;
+    border-radius: 1px;
+  }
+
+  &::before {
+    top: 43%;
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    top: 57%;
+    transform: rotate(-45deg);
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 0 0 0 25px;
+
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 0 0 0 40px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.city-filter__buttons-wrapper {
+  margin: 15px 0 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media screen and (min-width: 768px) {
+    margin: 20px 0 0;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 25px 0 0;
+    flex-direction: row;
+  }
+}
+
+.city-filter__list {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 975px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 20px;
+
+  list-style: none;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.city-filter__item {
+  margin: 0;
+  padding: 0;
+}
+
+.city-filter__city-button {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 25px;
+  color: $blueMain;
+
+  background: $trueWhite;
+  border: 1px solid $blueMain;
+  border-radius: 25px;
+
+  cursor: pointer;
+
+  @include smooth;
+
+  &:hover,
+  &:focus {
+    background: $blueMain;
+    color: $trueWhite;
+  }
+
+  &--current {
+    background: $blueMain;
+    color: $trueWhite;
+  }
+
+  &--other {
+    margin: 10px 0 0;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 16px;
+    line-height: 35px;
+
+    &--other {
+      position: relative;
+
+      margin: 0 0 0 25px;
+      padding: 0 30px 0 0;
+      width: auto;
+      flex-shrink: 0;
+
+      white-space: nowrap;
+
+      background: none;
+      border: none;
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 10px;
+
+        display: block;
+        width: 5px;
+        height: 1px;
+
+        background-color: $blueMain;
+        border-radius: 1px;
+      }
+
+      &::before {
+        right: 11.5px;
+        transform: rotate(45deg);
+      }
+
+      &::after {
+        right: 8.5px;
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
