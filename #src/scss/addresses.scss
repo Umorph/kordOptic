@@ -1,0 +1,289 @@
+.addresses {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.addresses__heading {
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 768px) {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+.addresses__desc {
+  margin: 10px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 768px) {
+    margin: 20px 0 0;
+
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 25px 0 0;
+
+    font-size: 24px;
+    line-height: 35px;
+  }
+}
+
+.addresses__city-filter {
+  margin: 25px 0 0;
+  padding: 0;
+
+  @media screen and (min-width: 768px) {
+    margin: 40px 0 0;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 50px 0 0;
+  }
+}
+
+.addresses__services-filter {
+  margin: 25px 0 0;
+  padding: 0;
+}
+
+.addresses__layout {
+  margin: 35px 0 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 35px;
+  width: 100%;
+  justify-content: center;
+
+  list-style: none;
+
+  @media screen and (min-width: 600px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 40px 0 0;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 50px 0 0;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media screen and (min-width: 1160px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.addresses__item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.addresses__item-heading {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: $blueMain;
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.addresses__item-address {
+  display: block;
+  margin: 10px 0 0;
+  padding: 0;
+  min-height: 40px;
+
+  font-family: $geometria;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 5px 0 0;
+
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+.addresses__item-phone {
+  display: block;
+  margin: 5px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 768px) {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin-top: auto;
+
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+.addresses__opening-hours-list {
+  margin: 5px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  list-style: none;
+}
+
+.addresses__opening-hours-item {
+  margin: 0;
+  padding: 0;
+}
+
+.addresses__opening-hours-text {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 768px) {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+.addresses__sign-up-link {
+  display: block;
+  margin: 15px 0 0;
+  padding: 0;
+  width: 220px;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: $trueWhite;
+
+  background: $blueMain;
+  border: 1px solid $blueMain;
+  border-radius: 25px;
+
+  @media screen and (min-width: 768px) {
+    width: 240px;
+
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 16px;
+    line-height: 35px;
+  }
+}
+
+.addresses__feedback-link {
+  display: block;
+  margin: 10px 0 0;
+  padding: 0;
+  width: 220px;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: $blueMain;
+
+  background: $trueWhite;
+  border: 1px solid $blueMain;
+  border-radius: 25px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 15px;
+    width: 240px;
+
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 16px;
+    line-height: 35px;
+  }
+}
