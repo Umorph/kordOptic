@@ -8709,6 +8709,12 @@ input::-webkit-inner-spin-button {
   border-radius: 25px;
 }
 
+.addresses__map-wrapper {
+  margin-top: 40px;
+  width: 100%;
+  height: 250px;
+}
+
 .main-content {
   margin: 0;
   padding: 0;
@@ -11611,6 +11617,11 @@ input::-webkit-inner-spin-button {
     line-height: 30px;
   }
 
+  .addresses__map-wrapper {
+    margin-top: 60px;
+    height: 350px;
+  }
+
   .main-content__description-wrapper {
     width: 768px;
   }
@@ -12772,6 +12783,11 @@ input::-webkit-inner-spin-button {
   .addresses__feedback-link {
     font-size: 16px;
     line-height: 35px;
+  }
+
+  .addresses__map-wrapper {
+    margin-top: 75px;
+    height: 400px;
   }
 
   .main-content__news-layout {
