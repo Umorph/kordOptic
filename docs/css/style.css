@@ -8907,6 +8907,201 @@ input::-webkit-inner-spin-button {
   cursor: pointer;
 }
 
+.about-company {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.about-company__heading {
+  display: block;
+  margin: 10px 0 0;
+  padding: 0;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #16171a;
+}
+
+.about-company__breadcrumbs {
+  margin: 0;
+  padding: 0;
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+.about-company__text-about {
+  display: block;
+  margin: 20px 0 0;
+  padding: 0;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #16171a;
+}
+
+.about-company__image-wrapper {
+  margin: 15px 0 0;
+  padding: 0;
+  width: 100%;
+}
+
+.about-company__shop-image {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-company__text-layout {
+  margin: 15px 0 0;
+  padding: 0;
+  display: grid;
+  grid-row-gap: 15px;
+  list-style: none;
+}
+
+.about-company__text-item {
+  margin: 0;
+  padding: 0;
+}
+
+.about-company__text {
+  margin: 0;
+  padding: 0;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #16171a;
+}
+
+.about-company__text-promo {
+  margin: 15px 0 0;
+  padding: 0;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #16171a;
+}
+
+.banner {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: #4351d8;
+}
+
+.banner__image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 245px;
+  background: -webkit-gradient(linear, right top, left top, from(#4351D8), to(rgba(67, 81, 216, 0))), url("../img/benefit-banner-bg.jpg"), #4351d8;
+  background: -o-linear-gradient(right, #4351D8 0%, rgba(67, 81, 216, 0) 100%), url("../img/benefit-banner-bg.jpg"), #4351d8;
+  background: linear-gradient(270deg, #4351D8 0%, rgba(67, 81, 216, 0) 100%), url("../img/benefit-banner-bg.jpg"), #4351d8;
+  background-size: 120% auto;
+  background-position: center bottom 0;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.banner__layout {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 15px;
+  min-width: 290px;
+  max-width: 1410px;
+  display: grid;
+  z-index: 1;
+}
+
+.banner__heading-wrapper {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 245px;
+}
+
+.banner__heading {
+  margin: 0;
+  padding: 0;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.banner__text-wrapper {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.banner__text-list {
+  margin: 25px 0 0;
+  padding: 0;
+  display: grid;
+  grid-row-gap: 30px;
+  list-style: none;
+}
+
+.banner__text-item {
+  margin: 0;
+  padding: 0;
+}
+
+.banner__text {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
 .main-content {
   margin: 0;
   padding: 0;
@@ -9244,6 +9439,17 @@ input::-webkit-inner-spin-button {
   padding: 0 15px;
   min-width: 290px;
   max-width: 1410px;
+}
+
+.main-content__about-company {
+  margin: 30px auto 0;
+  padding: 0 15px;
+  min-width: 290px;
+  max-width: 1410px;
+}
+
+.main-content__benefit-banner {
+  margin: 30px auto 0;
 }
 
 .footer {
@@ -10418,6 +10624,10 @@ input::-webkit-inner-spin-button {
   .myopia-risks__photo {
     width: 160px;
     height: 160px;
+  }
+
+  .banner__image-container {
+    background-size: 100% auto;
   }
 
   .main-content__description-wrapper {
@@ -11861,6 +12071,79 @@ input::-webkit-inner-spin-button {
     line-height: 24px;
   }
 
+  .about-company__heading {
+    margin-top: 0;
+    font-size: 37px;
+    line-height: 44px;
+  }
+
+  .about-company__breadcrumbs {
+    margin-top: 15px;
+    -webkit-box-ordinal-group: initial;
+        -ms-flex-order: initial;
+            order: initial;
+  }
+
+  .about-company__text-about {
+    font-size: 22px;
+    line-height: 31px;
+  }
+
+  .about-company__text-layout {
+    margin-top: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+  }
+
+  .about-company__text {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .about-company__text-promo {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 29px;
+  }
+
+  .banner__image-container {
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+  }
+
+  .banner__layout {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .banner__heading-wrapper {
+    margin-top: 32px;
+    padding: 0;
+    min-height: auto;
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .banner__heading {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .banner__text-wrapper {
+    margin-bottom: 32px;
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .banner__text-list {
+    margin: 30px 0 0;
+    grid-row-gap: 40px;
+  }
+
+  .banner__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
   .main-content__description-wrapper {
     width: 768px;
   }
@@ -11943,6 +12226,14 @@ input::-webkit-inner-spin-button {
 
   .main-content__hardware-treatment {
     margin: 55px auto;
+  }
+
+  .main-content__about-company {
+    margin: 55px auto 0;
+  }
+
+  .main-content__benefit-banner {
+    margin: 45px auto 0;
   }
 }
 
@@ -13060,6 +13351,53 @@ input::-webkit-inner-spin-button {
     line-height: 28px;
   }
 
+  .about-company__heading {
+    font-size: 46px;
+    line-height: 52px;
+  }
+
+  .about-company__breadcrumbs {
+    margin-top: 30px;
+  }
+
+  .about-company__text-about {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .about-company__text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .about-company__text-promo {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .banner__heading-wrapper {
+    margin-top: 64px;
+  }
+
+  .banner__heading {
+    font-size: 48px;
+    line-height: 53px;
+  }
+
+  .banner__text-wrapper {
+    margin-bottom: 64px;
+  }
+
+  .banner__text-list {
+    margin: 40px 0 0;
+    grid-row-gap: 50px;
+  }
+
+  .banner__text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
   .main-content__news-layout {
     margin: 50px auto 0;
   }
@@ -13147,6 +13485,14 @@ input::-webkit-inner-spin-button {
 
   .main-content__hardware-treatment {
     margin: 85px auto;
+  }
+
+  .main-content__about-company {
+    margin: 65px auto 0;
+  }
+
+  .main-content__benefit-banner {
+    margin: 65px auto 0;
   }
 }
 
@@ -13365,6 +13711,11 @@ input::-webkit-inner-spin-button {
   .advantages__link::before,
   .advantages__link::after {
     right: 140px;
+  }
+
+  .about-company__heading {
+    font-size: 64px;
+    line-height: 70px;
   }
 
   .main-content__description-wrapper {
@@ -13699,6 +14050,12 @@ input::-webkit-inner-spin-button {
 .webp .solution__photo::after { background: -o-linear-gradient(top, #FFFFFF 50%, rgba(255, 255, 255, 0.87) 100%), url(../img/solution-item-small.webp); }
 
 .webp .solution__photo::after { background: linear-gradient(180deg, #FFFFFF 50%, rgba(255, 255, 255, 0.87) 100%), url(../img/solution-item-small.webp); }
+
+.webp .banner__image-container { background: -webkit-gradient(linear, right top, left top, from(#4351D8), to(rgba(67, 81, 216, 0))), url(../img/benefit-banner-bg.webp), #4351d8; }
+
+.webp .banner__image-container { background: -o-linear-gradient(right, #4351D8 0%, rgba(67, 81, 216, 0) 100%), url(../img/benefit-banner-bg.webp), #4351d8; }
+
+.webp .banner__image-container { background: linear-gradient(270deg, #4351D8 0%, rgba(67, 81, 216, 0) 100%), url(../img/benefit-banner-bg.webp), #4351d8; }
 
 @media screen and (min-width: 768px) {
 
