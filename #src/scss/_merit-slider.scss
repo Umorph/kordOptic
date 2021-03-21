@@ -1,0 +1,30 @@
+.merit-slider {
+  margin: 25px 0 0;
+  padding: 0;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    margin: 30px 0 0;
+  }
+}
+
+.merit-slider__slide {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.merit-slider__image-wrapper {
+  text-align: center;
+}
+
+.merit-slider__image {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 330px;
+  height: auto;
+}
