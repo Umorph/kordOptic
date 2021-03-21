@@ -607,10 +607,22 @@
   max-width: 1410px;
 
   @media screen and (min-width: 768px) {
-    margin: 55px auto;
+    margin: 55px auto 0;
   }
 
   @media screen and (min-width: 1024px) {
-    margin: 65px auto;
+    margin: 65px auto 0;
+  }
+}
+
+.main-content__benefit-banner {
+  margin: 30px auto 0;
+
+  @media screen and (min-width: 768px) {
+    margin: 45px auto 0;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 65px auto 0;
   }
 }
