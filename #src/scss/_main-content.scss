@@ -637,3 +637,15 @@
     margin: 65px auto 0;
   }
 }
+
+.main-content__career-banner {
+  margin: 30px auto 0;
+
+  @media screen and (min-width: 768px) {
+    margin: 45px auto 0;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 65px auto 0;
+  }
+}
