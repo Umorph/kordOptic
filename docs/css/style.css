@@ -9027,6 +9027,15 @@ input::-webkit-inner-spin-button {
   z-index: 0;
 }
 
+.banner__image-container--career-bg {
+  background: -webkit-gradient(linear, right top, left top, from(rgba(67, 81, 216, 0)), to(#4351D8)), url("../img/career-banner-bg.jpg"), #4351d8;
+  background: -o-linear-gradient(right, rgba(67, 81, 216, 0) 0%, #4351D8 100%), url("../img/career-banner-bg.jpg"), #4351d8;
+  background: linear-gradient(270deg, rgba(67, 81, 216, 0) 0%, #4351D8 100%), url("../img/career-banner-bg.jpg"), #4351d8;
+  background-size: 125% auto;
+  background-position: center bottom 0;
+  background-repeat: no-repeat;
+}
+
 .banner__layout {
   position: relative;
   margin: 0 auto;
@@ -9070,6 +9079,10 @@ input::-webkit-inner-spin-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -9100,6 +9113,24 @@ input::-webkit-inner-spin-button {
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
+}
+
+.banner__link {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 30px 0 0;
+  padding: 16px 30px;
+  width: 100%;
+  max-width: 400px;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #16171a;
+  text-decoration: none;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 80px;
 }
 
 .find-shop {
@@ -9535,6 +9566,10 @@ input::-webkit-inner-spin-button {
   padding: 0 15px;
   min-width: 290px;
   max-width: 1410px;
+}
+
+.main-content__career-banner {
+  margin: 30px auto 0;
 }
 
 .footer {
@@ -12197,6 +12232,10 @@ input::-webkit-inner-spin-button {
     background-size: cover;
   }
 
+  .banner__image-container--right-align {
+    left: 50%;
+  }
+
   .banner__layout {
     grid-template-columns: 1fr 1fr;
   }
@@ -12206,6 +12245,14 @@ input::-webkit-inner-spin-button {
     padding: 0;
     min-height: auto;
     grid-area: 1 / 2 / 2 / 3;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .banner__heading-wrapper--left-column {
+    margin-top: 65px;
+    grid-area: 1 / 1 / 2 / 2;
   }
 
   .banner__heading {
@@ -12216,6 +12263,11 @@ input::-webkit-inner-spin-button {
   .banner__text-wrapper {
     margin: 25px 0 32px;
     grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .banner__text-wrapper--left-column {
+    margin-bottom: 65px;
+    grid-area: 2 / 1 / 3 / 2;
   }
 
   .banner__text-list {
@@ -12346,6 +12398,10 @@ input::-webkit-inner-spin-button {
 
   .main-content__find-shop {
     margin: 65px auto 0;
+  }
+
+  .main-content__career-banner {
+    margin: 45px auto 0;
   }
 }
 
@@ -13491,6 +13547,10 @@ input::-webkit-inner-spin-button {
     margin-top: 64px;
   }
 
+  .banner__heading-wrapper--left-column {
+    margin-top: 108px;
+  }
+
   .banner__heading {
     font-size: 48px;
     line-height: 53px;
@@ -13498,6 +13558,10 @@ input::-webkit-inner-spin-button {
 
   .banner__text-wrapper {
     margin: 40px 0 65px;
+  }
+
+  .banner__text-wrapper--left-column {
+    margin-bottom: 108px;
   }
 
   .banner__text-list {
@@ -13619,6 +13683,10 @@ input::-webkit-inner-spin-button {
   }
 
   .main-content__benefit-banner {
+    margin: 65px auto 0;
+  }
+
+  .main-content__career-banner {
     margin: 65px auto 0;
   }
 }
@@ -14183,6 +14251,12 @@ input::-webkit-inner-spin-button {
 .webp .banner__image-container { background: -o-linear-gradient(right, #4351D8 0%, rgba(67, 81, 216, 0) 100%), url(../img/benefit-banner-bg.webp), #4351d8; }
 
 .webp .banner__image-container { background: linear-gradient(270deg, #4351D8 0%, rgba(67, 81, 216, 0) 100%), url(../img/benefit-banner-bg.webp), #4351d8; }
+
+.webp .banner__image-container--career-bg { background: -webkit-gradient(linear, right top, left top, from(rgba(67, 81, 216, 0)), to(#4351D8)), url(../img/career-banner-bg.webp), #4351d8; }
+
+.webp .banner__image-container--career-bg { background: -o-linear-gradient(right, rgba(67, 81, 216, 0) 0%, #4351D8 100%), url(../img/career-banner-bg.webp), #4351d8; }
+
+.webp .banner__image-container--career-bg { background: linear-gradient(270deg, rgba(67, 81, 216, 0) 0%, #4351D8 100%), url(../img/career-banner-bg.webp), #4351d8; }
 
 @media screen and (min-width: 768px) {
 
