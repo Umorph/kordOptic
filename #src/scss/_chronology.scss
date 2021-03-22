@@ -1,0 +1,267 @@
+.chronology {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.chronology__container {
+  position: relative;
+
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 15px;
+  min-width: 290px;
+  width: 100%;
+  max-width: 1410px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.chronology__heading-wrapper {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+}
+
+.chronology__heading {
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: $darkFullBlue;
+
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 48px;
+    line-height: 53px;
+  }
+}
+
+.chronology__controls-wrapper {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
+}
+
+.chronology__slider-control {
+  margin: 0;
+  padding: 0;
+  width: 32px;
+  height: 15px;
+  font-size: 0;
+
+  background: none;
+  border: none;
+
+  &--prev {
+    background-image: url("../img/arrow-prev.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--next {
+    background-image: url("../img/arrow-next.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.chronology__slider-control {
+  margin: 0;
+  padding: 0;
+
+  cursor: pointer;
+}
+
+.chronology__mini-slider {
+  margin: 25px 0 0;
+  padding: 0;
+  width: 100%;
+  min-height: 190px;
+}
+
+.chronology__mini-slider-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.chronology__mini-slider-slide {
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+.chronology__mini-slider-inner {
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+  width: 138px;
+  height: 138px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  background: url("../img/history-slider-eye.svg") center no-repeat,
+  $blueMain;
+
+  @include smooth;
+}
+
+.chronology__mini-slider-year {
+  margin: 0;
+  padding: 0;
+
+  font-family: $montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  color: $blueMain;
+
+  -webkit-text-stroke: 1px $trueWhite;
+}
+
+.chronology__mini-slider-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+
+  border-radius: 50%;
+  opacity: 0;
+
+  z-index: 1;
+
+  @include smooth;
+}
+
+.chronology__mini-slider-slide.swiper-slide-active .chronology__mini-slider-inner {
+  width: 190px;
+  height: 190px;
+}
+
+.chronology__mini-slider-slide.swiper-slide-active .chronology__mini-slider-image {
+  opacity: 1;
+}
+
+.chronology__separator-wrapper {
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.chronology__separator-line {
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+
+  width: 100%;
+  height: 1px;
+
+  background-image: url("../img/blue-dash.svg");
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.chronology__separator-marker {
+  position: relative;
+
+  margin: 0 0 0 85px;
+  padding: 0;
+  width: 17px;
+  height: 61px;
+
+  background-image: url("../img/chronology-marker.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  z-index: 5;
+}
+
+.chronology__slider {
+  margin: 15px 0 0;
+  padding: 0;
+  width: 100%;
+}
+
+.chronology__slider-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.chronology__slide {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.chronology__slider-year {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: $montserrat;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 70px;
+  color: $trueWhite;
+
+  -webkit-text-stroke: 3px $blueMain;
+
+  @media screen and (min-width: 768px) {
+    margin: 0 0 0 90px;
+  }
+}
+
+.chronology__slider-text {
+  margin: 10px 0 0;
+  padding: 0;
+  max-width: 690px;
+
+  font-family: $geometria;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: $darkFullBlue;
+
+  @media screen and (min-width: 768px) {
+    margin: 10px 0 0 90px;
+  }
+}
