@@ -13959,6 +13959,10 @@ button.swiper-pagination-bullet {
   .main-content__quality-policy {
     margin: 90px auto 0;
   }
+
+  .main-content__quality-cert {
+    margin: 0 auto 100px;
+  }
 }
 
 @media screen and (min-width: 1020px) {
@@ -15288,6 +15292,10 @@ button.swiper-pagination-bullet {
 
   .main-content__quality-policy {
     margin: 145px auto 0;
+  }
+
+  .main-content__quality-cert {
+    margin: 0 auto 205px;
   }
 }
 
