@@ -10411,6 +10411,47 @@ button.swiper-pagination-bullet {
   color: #16171a;
 }
 
+.quality-policy {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.quality-policy__heading {
+  margin: 0;
+  padding: 0;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 42px;
+  color: #16171a;
+}
+
+.quality-policy__text {
+  margin: 10px 0 0;
+  padding: 0;
+  max-width: 1320px;
+  font-family: "Geometria", "helvetica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #16171a;
+}
+
 .main-content {
   margin: 0;
   padding: 0;
@@ -10778,6 +10819,13 @@ button.swiper-pagination-bullet {
 
 .main-content__chronology {
   margin: 40px 0 0;
+}
+
+.main-content__quality-policy {
+  margin: 50px auto 0;
+  padding: 0 15px;
+  min-width: 290px;
+  max-width: 1410px;
 }
 
 .footer {
@@ -13543,6 +13591,29 @@ button.swiper-pagination-bullet {
     margin: 10px 0 0 90px;
   }
 
+  .quality-policy {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .quality-policy__heading {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .quality-policy__heading {
+    font-size: 48px;
+    line-height: 53px;
+  }
+
+  .quality-policy__text {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+  }
+
   .main-content__description-wrapper {
     width: 768px;
   }
@@ -13649,6 +13720,10 @@ button.swiper-pagination-bullet {
 
   .main-content__chronology {
     margin: 65px auto 0;
+  }
+
+  .main-content__quality-policy {
+    margin: 90px auto 0;
   }
 }
 
@@ -14845,6 +14920,11 @@ button.swiper-pagination-bullet {
     line-height: 53px;
   }
 
+  .quality-policy__text {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
   .main-content__news-layout {
     margin: 50px auto 0;
   }
@@ -14944,6 +15024,10 @@ button.swiper-pagination-bullet {
 
   .main-content__career-banner {
     margin: 65px auto 0;
+  }
+
+  .main-content__quality-policy {
+    margin: 145px auto 0;
   }
 }
 
