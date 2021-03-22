@@ -1,0 +1,598 @@
+.vacancy {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.vacancy__breadcrumbs {
+  margin: 0;
+  padding: 0;
+}
+
+.vacancy__heading {
+  margin: 10px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 768px) {
+    margin: 30px 0 0;
+
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 50px 0 0;
+
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+.vacancy__image {
+  display: block;
+  margin: 10px 0 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+
+  @media screen and (min-width: 768px) {
+    margin: 25px 0 0;
+  }
+}
+
+.vacancy__desc {
+  margin: 10px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 768px) {
+    margin: 25px 0 0;
+
+    font-size: 19px;
+    line-height: 28px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 24px;
+    line-height: 35px;
+  }
+}
+
+.vacancy__city-filter {
+  margin: 20px 0 0;
+  padding: 0;
+
+  @media screen and (min-width: 768px) {
+    margin: 35px 0 0;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 50px 0 0;
+  }
+}
+
+.vacancy__layout {
+  margin: 30px 0 0;
+  padding: 0;
+  display: grid;
+  grid-row-gap: 35px;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    margin: 50px 0 0;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 65px 0 0;
+  }
+}
+
+.vacancy__column {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-row-gap: 35px;
+
+  @media screen and (min-width: 768px) {
+    grid-row-gap: 55px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    grid-row-gap: 75px;
+  }
+}
+
+.vacancy__list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-row-gap: 35px;
+
+  list-style: none;
+
+  @media screen and (min-width: 768px) {
+    grid-row-gap: 55px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    grid-row-gap: 75px;
+  }
+}
+
+.vacancy__item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.vacancy__name {
+  position: relative;
+
+  margin: 0;
+  padding: 0 15px 0 0;
+  display: block;
+
+  font-family: $geometria;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: $blueMain;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 24px;
+    line-height: 25px;
+  }
+}
+
+.vacancy__name svg {
+  width: 100%;
+  height: auto;
+
+  @include smooth;
+}
+
+.vacancy__name--opened svg {
+  transform: rotate(90deg);
+}
+
+.vacancy__name-marker {
+  margin: 0 0 0 10px;
+  padding: 0;
+  width: 15px;
+  vertical-align: middle;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (min-width: 768px) {
+    width: 20px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 25px;
+  }
+}
+
+.vacancy__shop-address {
+  margin: 2px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 768px) {
+    margin: 5px 0 0;
+
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 10px 0 0;
+
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+.vacancy__salary {
+  margin: 15px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 25px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 768px) {
+    margin: 30px 0 0;
+
+    font-size: 25px;
+    line-height: 28px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 55px 0 0;
+
+    font-size: 28px;
+    line-height: 30px;
+  }
+}
+
+.vacancy__inner {
+  margin: 20px 0 0;
+  padding: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  &--opened {
+    display: flex;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 35px 0 0;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 50px 0 0;
+  }
+}
+
+.vacancy__experience {
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+.vacancy__experience-value {
+  font-family:$geometria;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+.vacancy__schedule {
+  margin: 5px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 768px) {
+    margin: 10px 0 0;
+
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+.vacancy__duties {
+  margin: 20px 0 0;
+  padding: 0;
+}
+
+.vacancy__requirements {
+  margin: 20px 0 0;
+  padding: 0;
+
+  @media screen and (min-width: 768px) {
+    margin: 25px 0 0;
+  }
+}
+.vacancy__conditions {
+  margin: 20px 0 0;
+  padding: 0;
+
+  @media screen and (min-width: 768px) {
+    margin: 25px 0 0;
+  }
+}
+
+.vacancy__important-info {
+  margin: 20px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: $blueMain;
+
+  @media screen and (min-width: 768px) {
+    margin: 25px 0 0;
+
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+.vacancy__skills {
+  margin: 20px 0 0;
+  padding: 0;
+}
+
+.vacancy__contact-info {
+  margin: 0;
+  padding: 0;
+}
+.vacancy__info-heading {
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: $greyBlueDark;
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 24px;
+    line-height: 25px;
+  }
+}
+
+.vacancy__info-list {
+  margin: 20px 0 0;
+  padding: 0;
+  display: grid;
+  grid-row-gap: 15px;
+
+  list-style: none;
+
+  @media screen and (min-width: 768px) {
+    margin: 25px 0 0;
+    grid-row-gap: 20px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 25px 0 0;
+    grid-row-gap: 25px;
+  }
+}
+
+.vacancy__info-item {
+  margin: 0;
+  padding: 0;
+  min-height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.vacancy__info-text {
+  position: relative;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 0 0 40px;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 25px;
+  color: $greyBlueDark;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+    display: block;
+    width: 20px;
+    height: 20px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    transform: translateY(-10px);
+  }
+
+  &--person-icon {
+    &::before {
+      background-image: url("../img/vacancy-user-icon.svg");
+    }
+  }
+
+  &--phone-icon {
+    &::before {
+      background-image: url("../img/vacancy-phone-icon.svg");
+    }
+  }
+
+  &--mail-icon {
+    &::before {
+      background-image: url("../img/vacancy-email-icon.svg");
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+.vacancy__button {
+  margin: 25px 0 0;
+  padding: 0;
+  width: 100%;
+  max-width: 220px;
+
+  font-family: $geometria;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+  color: $trueWhite;
+
+  background: $blueMain;
+  border: none;
+  border-radius: 25px;
+
+  cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 35px;
+    max-width: 250px;
+
+    font-size: 16px;
+    line-height: 35px;
+  }
+}
+
+.vacancy__form-wrapper {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 450px;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    justify-self: center;
+  }
+}
+
+.vacancy__form-heading {
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 20px;
+  color: $blueMain;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+    line-height: 25px;
+  }
+}
+
+.vacancy__form {
+  margin: 10px 0 0;
+  padding: 0;
+  display: grid;
+  grid-row-gap: 10px;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    margin: 25px 0 0;
+  }
+}
+
+.vacancy__form-input {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 10px;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 30px;
+
+  border: 1px solid $blueMain;
+  border-radius: 5px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: 35px;
+  }
+}
+
+.vacancy__form-textarea {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 10px;
+  width: 100%;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 30px;
+
+  border: 1px solid $blueMain;
+  border-radius: 5px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: 35px;
+  }
+}

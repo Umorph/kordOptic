@@ -702,3 +702,18 @@
     margin: 0 auto 205px;
   }
 }
+
+.main-content__vacancy {
+  margin: 10px auto 0;
+  padding: 0 15px;
+  min-width: 290px;
+  max-width: 1410px;
+
+  @media screen and (min-width: 768px) {
+    margin: 30px auto 0;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 50px auto 0;
+  }
+}
