@@ -1,0 +1,142 @@
+.rewards {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  @media screen and (min-width: 768px) {
+    align-items: center;
+  }
+}
+
+.rewards__heading {
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 42px;
+  color: $darkFullBlue;
+
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 48px;
+    line-height: 53px;
+  }
+}
+
+.rewards__text-layout {
+  margin: 10px 0 0;
+  padding: 0;
+  display: grid;
+  grid-row-gap: 25px;
+
+  list-style: none;
+
+  @media screen and (min-width: 768px) {
+    margin: 20px 0 0;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 30px 0 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+  }
+}
+
+.rewards__text-item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.rewards__text {
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: $darkFullBlue;
+}
+
+.rewards__stat-layout {
+  margin: 30px 0 0;
+  padding: 0;
+  display: grid;
+  grid-row-gap: 30px;
+
+  list-style: none;
+
+  @media screen and (min-width: 768px) {
+    margin: 40px 0 0;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 50px 0 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+  }
+}
+
+.rewards__stat-item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.rewards__stat-value {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 104px;
+  line-height: 104px;
+  color: $blueMain;
+}
+
+.rewards__stat-topic {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: $darkFullBlue;
+}
+
+.rewards__stat-description {
+  margin: 10px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: $darkFullBlue;
+}
