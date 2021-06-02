@@ -163,6 +163,14 @@
     border-color: $blueMain;
   }
 
+  &--wide {
+    margin-right: 30px;
+  }
+
+  &--no-border {
+    border: none;
+  }
+
   &:hover,
   &:focus {
     border-color: $blueMain;
