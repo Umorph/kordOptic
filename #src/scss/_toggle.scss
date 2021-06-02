@@ -16,6 +16,10 @@
   width: 100%;
 
   list-style: none;
+
+  &--four-columns {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 .toggle__item {
