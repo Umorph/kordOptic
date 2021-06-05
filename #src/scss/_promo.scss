@@ -11,6 +11,12 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
+
+    &--column {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
   }
 }
 
@@ -126,4 +132,39 @@
 .promo__content-list {
   margin: 20px auto 0;
   padding: 0;
+  width: 100%;
+}
+
+.promo__subheading {
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #3E425B;
+
+  &:not(:first-child) {
+    margin-top: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 37px;
+
+    &:not(:first-child) {
+      margin-top: 35px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 36px;
+    line-height: 50px;
+
+    &:not(:first-child) {
+      margin-top: 50px;
+    }
+  }
 }
