@@ -663,3 +663,34 @@
     line-height: 20px;
   }
 }
+
+.catalog-layout__button {
+  box-sizing: border-box;
+  display: block;
+  margin: 15px 7px 0;
+  padding: 0;
+  width: 100%;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 35px;
+  color: #4351D8;
+
+  background: #FFFFFF;
+  border: 1px solid #4351D8;
+  border-radius: 25px;
+  cursor: pointer;
+
+  @include smooth;
+
+  &:last-child{
+    margin-bottom: 15px;
+  }
+
+  &--blue {
+    color: #fff;
+    background-color: #4351D8;
+  }
+}
