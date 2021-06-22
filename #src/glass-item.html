@@ -202,7 +202,7 @@
         </div>
         <div class="item-parameters__hints">
           <a class="item-parameters__hint" href="#">Видеоконсультация</a>
-          <a class="item-parameters__hint" href="#">Online-примерка</a>
+          <a class="item-parameters__hint item-parameters__hint--online-fitting" href="#">Online-примерка</a>
         </div>
       </div>
     </div>
@@ -676,5 +676,37 @@
       </div>
     </div>
   </footer>
+  <section class="online-fitting">
+    <div class="online-fitting__container">
+      <button class="online-fitting__close-button" type="button"></button>
+      <h2 class="online-fitting__heading">Online-примерка</h2>
+      <div class="online-fitting__inner">
+        <div class="online-fitting__column">
+          <img class="online-fitting__user-photo" src="img/user-thumbnail.jpg" alt="Загрузите фото">
+          <button class="online-fitting__choose-button" type="button">Выбрать фото</button>
+        </div>
+        <div class="online-fitting__column">
+          <ul class="online-fitting__controls-list">
+            <li class="online-fitting__controls-item">
+              <button class="online-fitting__control-button online-fitting__control-button--refresh" type="button">Обновить</button>
+            </li>
+            <li class="online-fitting__controls-item">
+              <button class="online-fitting__control-button online-fitting__control-button--clockwise" type="button">Повернуть вправо</button>
+            </li>
+            <li class="online-fitting__controls-item">
+              <button class="online-fitting__control-button online-fitting__control-button--counter-clockwise" type="button">Повернуть влево</button>
+            </li>
+            <li class="online-fitting__controls-item">
+              <button class="online-fitting__control-button online-fitting__control-button--zoom-in" type="button">Увеличить</button>
+            </li>
+            <li class="online-fitting__controls-item">
+              <button class="online-fitting__control-button online-fitting__control-button--zoom-out" type="button">Уменьшить</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/online-fitting-toggle.min.js"></script>
 </body>
 </html>
