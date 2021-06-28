@@ -20,27 +20,52 @@
 .lens-card--active .lens-card__list {
   &--blue {
     background: rgba(67, 81, 216, 0.1);
-    border-color: #4351D8;
+
+    border-left: 2px solid #4351D8;
+    border-right: 2px solid #4351D8;
+    border-bottom: 2px solid #4351D8;
+
+    transition: border 0.05s linear;
   }
 
   &--aquamarine {
     background: rgba(67, 216, 189, 0.1);
-    border-color: #43D8BD;
+
+    border-left: 2px solid #43D8BD;
+    border-right: 2px solid #43D8BD;
+    border-bottom: 2px solid #43D8BD;
+
+    transition: border 0.05s linear;
   }
 
   &--light-green {
     background: rgba(168, 216, 67, 0.1);
-    border-color: #A8D843;
+
+    border-left: 2px solid #A8D843;
+    border-right: 2px solid #A8D843;
+    border-bottom: 2px solid #A8D843;
+
+    transition: border 0.05s linear;
   }
 
   &--orange {
     background: rgba(216, 192, 67, 0.1);
-    border-color: #D8C043;
+
+    border-left: 2px solid #D8C043;
+    border-right: 2px solid #D8C043;
+    border-bottom: 2px solid #D8C043;
+
+    transition: border 0.05s linear;
   }
 
   &--purple {
     background: rgba(159, 67, 216, 0.1);
-    border-color: #9F43D8;
+
+    border-left: 2px solid #9F43D8;
+    border-right: 2px solid #9F43D8;
+    border-bottom: 2px solid #9F43D8;
+
+    transition: border 0.05s linear;
   }
 }
 
@@ -100,9 +125,9 @@
 
   list-style: none;
 
-  border-left: 2px solid #73778D;
-  border-right: 2px solid #73778D;
-  border-bottom: 2px solid #73778D;
+  border-left: 1px solid #73778D;
+  border-right: 1px solid #73778D;
+  border-bottom: 1px solid #73778D;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 
