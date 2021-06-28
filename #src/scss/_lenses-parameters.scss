@@ -1,0 +1,619 @@
+.lenses-parameters {
+  margin: 55px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.lenses-parameters__heading {
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: $darkFullBlue;
+
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+
+.lenses-parameters__form {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.lenses-parameters__manual-data {
+  margin: 16px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+
+  border: none;
+}
+
+.lenses-parameters__group-heading {
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+  display: block;
+  float: left;
+  width: 100%;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: $greyBlue;
+
+  cursor: pointer;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    display: block;
+    width: 24px;
+    height: 24px;
+
+    background: url("../img/dropdown-icon.svg") center no-repeat;
+
+    transform: translateY(-12px);
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    line-height: 29px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+
+.lenses-parameters__eye-parameters {
+  margin: 15px 0 0;
+  padding: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 51px 51px 51px 51px;
+  grid-row-gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+
+  @media screen and (min-width: 425px) {
+    grid-template-columns: 100px 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+  }
+}
+
+.lenses-parameters__parameter-name:first-child {
+  grid-column: 2 / 3;
+}
+
+.lenses-parameters__parameter-name {
+  margin: 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: $trueBlack;
+
+  &--left-align {
+    text-align: left;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.lenses-parameters__input {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 2px 5px;
+  width: 100%;
+  min-height: 48px;
+
+  font-family: $geometria;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+  color: $trueBlack;
+
+  border: 1px solid $greyBlue;
+  border-radius: 8px;
+  background: $trueWhite;
+
+  opacity: 0.5;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+}
+
+.lenses-parameters__pupillary-distance {
+  margin: 32px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.lenses-parameters__pd-option {
+  box-sizing: border-box;
+  margin: 8px 0 0;
+  padding: 24px 34px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+
+  background: #EFF4FF;
+  border-radius: 8px;
+
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    align-items: center;
+  }
+}
+
+.lenses-parameters__radio-label {
+  position: relative;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 22px 0 0;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: $trueBlack;
+
+  cursor: pointer;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    display: block;
+    width: 14px;
+    height: 14px;
+
+    border: 1px solid $greyBlueDark;
+    border-radius: 50%;
+
+    transform: translateX(-7px);
+  }
+
+  &::after {
+    content: none;
+    position: absolute;
+    top: 3px;
+    left: 50%;
+
+    display: block;
+    width: 10px;
+    height: 10px;
+
+    background: $greyBlueDark;
+    border-radius: 50%;
+
+    transform: translateX(-4px);
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 0 0 0 65px;
+
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+
+    &::before {
+      top: 50%;
+      left: 0;
+
+      transform: translateY(-8px);
+    }
+
+    &::after {
+      top: 50%;
+      left: 3px;
+
+      transform: translateY(-5px);
+    }
+  }
+}
+
+.lenses-parameters__radio-input:checked ~ .lenses-parameters__radio-label::after {
+  content: "";
+}
+
+.lenses-parameters__pd-inputs-list {
+  margin: 8px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 71px 71px;
+  justify-content: space-between;
+  align-items: center;
+  width: 185px;
+
+  list-style: none;
+
+  @media screen and (min-width: 425px) {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
+  }
+}
+
+.lenses-parameters__pd-inputs-item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.lenses-parameters__pd-label {
+  margin: 0 8px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: $trueBlack;
+}
+
+.lenses-parameters__pd-hint {
+  margin: 12px 0 0;
+  padding: 0;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  color: $greyBlue;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
+
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.lenses-parameters__prescription-data {
+  position: relative;
+
+  margin: 64px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+
+  border: none;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -32px;
+    left: 0;
+    right: 0;
+
+    display: block;
+    width: 100%;
+    height: 1px;
+
+    background: #e4e6fd;
+  }
+}
+
+.lenses-parameters__prescription-wrapper {
+  margin: 16px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 100%;
+
+  @media screen and (min-width: 600px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.lenses-parameters__prescription-input {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+.lenses-parameters__prescription-label {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 14px 10px 16px;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: $trueWhite;
+
+  background: $greyBlue;
+  border: 1px solid $greyBlue;
+  border-radius: 8px;
+  opacity: 0.5;
+
+  cursor: pointer;
+
+  @media screen and (min-width: 600px) {
+    padding: 14px 60px 16px;
+  }
+}
+
+.lenses-parameters__prescription-filename {
+  position: relative;
+  box-sizing: border-box;
+  margin: 16px 0 0;
+  padding: 0 30px 0 0;
+  align-self: center;
+
+  font-family: $geometria;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: $trueBlack;
+  text-align: center;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    display: block;
+    width: 22px;
+    height: 16px;
+
+    background: url("../img/catalog-checkbox-checked.svg") center no-repeat;
+
+    transform: translateY(-8px);
+  }
+
+  @media screen and (min-width: 600px) {
+    margin-top: 0;
+  }
+}
+
+.lenses-parameters__user-data {
+  margin: 24px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+
+  border: none;
+}
+
+.lenses-parameters__user-data-heading {
+  margin: 0;
+  padding: 0;
+  display: block;
+  float: left;
+  width: 100%;
+
+  font-family: $geometria;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: $greyBlue;
+
+  @media screen and (min-width: 600px) {
+    text-align: left;
+  }
+}
+
+.lenses-parameters__user-data-inner {
+  margin: 8px 0 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 16px;
+  width: 100%;
+
+  @media screen and (min-width: 600px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.lenses-parameters__user-data-input {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 14px 10px 16px;
+
+  font-family: $geometria;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: $trueBlack;
+
+  opacity: 0.5;
+  border: 1px solid $greyBlue;
+  border-radius: 8px;
+}
+
+.lenses-parameters__user-data-input::-webkit-input-placeholder {color: $trueBlack;}
+.lenses-parameters__user-data-input::-moz-placeholder          {color: $trueBlack;}/* Firefox 19+ */
+.lenses-parameters__user-data-input:-moz-placeholder           {color: $trueBlack;}/* Firefox 18- */
+.lenses-parameters__user-data-input:-ms-input-placeholder      {color: $trueBlack;}
+
+
+.lenses-parameters__prescription {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 14px 10px 16px;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+
+  font-family: $geometria;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align-last: center;
+  color: $trueBlack;
+
+  appearance: none;
+  cursor: pointer;
+
+  opacity: 0.5;
+  border: 1px solid $greyBlue;
+  border-radius: 8px;
+}
+
+.lenses-parameters__user-data-textarea {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 14px 10px 16px;
+  width: 100%;
+
+  font-family: $geometria;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: $trueBlack;
+
+  opacity: 0.5;
+  border: 1px solid $greyBlue;
+  border-radius: 8px;
+
+  @media screen and (min-width: 600px) {
+    grid-column: 1 / 3;
+  }
+
+  @media screen and (min-width: 1024px) {
+    grid-column: 1 / 4;
+  }
+}
+
+.lenses-parameters__user-data-textarea::-webkit-input-placeholder {
+  color: $trueBlack;
+  text-align: center;
+
+  @media screen and (min-width: 1024px) {
+    text-align: left;
+  }
+}
+
+.lenses-parameters__user-data-textarea::-moz-placeholder {
+  color: $trueBlack;
+  text-align: center;
+
+  @media screen and (min-width: 1024px) {
+    text-align: left;
+  }
+} /* Firefox 19+ */
+
+.lenses-parameters__user-data-textarea:-moz-placeholder {
+  color: $trueBlack;
+  text-align: center;
+
+  @media screen and (min-width: 1024px) {
+    text-align: left;
+  }
+} /* Firefox 18- */
+
+.lenses-parameters__user-data-textarea:-ms-input-placeholder {
+  color: $trueBlack;
+  text-align: center;
+
+  @media screen and (min-width: 1024px) {
+    text-align: left;
+  }
+}
